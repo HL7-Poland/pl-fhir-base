@@ -1,0 +1,229 @@
+Profile: PLBaseReferenceMedicalPractice
+Parent: Reference
+Id: pl-base-reference-medicalpractice
+Title: "Reference: Medical Practice (PL)"
+Description: "Identyfikator praktyki zawodowej nadany przez właściwą izbę lekarską lub izbę pielęgniarek i połonych"
+* reference 0..0
+* type 0..0
+* identifier 1..1 MS
+* identifier 1..1 MS
+* identifier ^slicing.discriminator.type = #value
+* identifier ^slicing.discriminator.path = "system"
+* identifier ^slicing.rules = #closed
+* identifier ^slicing.description = "Pula identyfikatorów praktyk zawodowych nadanych przez właściwą izbę lekarską lub izbę pielęgniarek i połonych"
+* identifier ^slicing.ordered = false
+* identifier contains
+    root-4-50-1 1..1 MS or
+    root-4-51-1 1..1 MS or
+    root-4-52-1 1..1 MS or
+    root-4-53-1 1..1 MS or
+    root-4-54-1 1..1 MS or
+    root-4-55-1 1..1 MS or
+    root-4-56-1 1..1 MS or
+    root-4-57-1 1..1 MS or
+    root-4-58-1 1..1 MS or
+    root-4-59-1 1..1 MS or
+    root-4-60-1 1..1 MS or
+    root-4-61-1 1..1 MS or
+    root-4-62-1 1..1 MS or
+    root-4-63-1 1..1 MS or
+    root-4-64-1 1..1 MS or
+    root-4-65-1 1..1 MS or
+    root-4-66-1 1..1 MS or
+    root-4-67-1 1..1 MS or
+    root-4-68-1 1..1 MS or
+    root-4-69-1 1..1 MS or
+    root-4-70-1 1..1 MS or
+    root-4-71-1 1..1 MS or
+    root-4-72-1 1..1 MS or
+    root-4-73-1 1..1 MS or
+    root-4-74-1 1..1 MS or
+    root-4-75-1 1..1 MS or
+    root-5-1-1 1..1 MS or
+    root-5-2-1 1..1 MS or
+    root-5-3-1 1..1 MS or
+    root-5-4-1 1..1 MS or
+    root-5-5-1 1..1 MS or
+    root-5-6-1 1..1 MS or
+    root-5-7-1 1..1 MS or
+    root-5-8-1 1..1 MS or
+    root-5-9-1 1..1 MS or
+    root-5-10-1 1..1 MS or
+    root-5-11-1 1..1 MS or
+    root-5-12-1 1..1 MS or
+    root-5-13-1 1..1 MS or
+    root-5-14-1 1..1 MS or
+    root-5-15-1 1..1 MS or
+    root-5-16-1 1..1 MS or
+    root-5-17-1 1..1 MS or
+    root-5-18-1 1..1 MS or
+    root-5-19-1 1..1 MS or
+    root-5-20-1 1..1 MS or
+    root-5-21-1 1..1 MS or
+    root-5-22-1 1..1 MS or
+    root-5-23-1 1..1 MS or
+    root-5-24-1 1..1 MS or
+    root-5-25-1 1..1 MS or
+    root-5-26-1 1..1 MS or
+    root-5-27-1 1..1 MS or
+    root-5-28-1 1..1 MS or
+    root-5-29-1 1..1 MS or
+    root-5-30-1 1..1 MS or
+    root-5-31-1 1..1 MS or
+    root-5-32-1 1..1 MS or
+    root-5-33-1 1..1 MS or
+    root-5-34-1 1..1 MS or
+    root-5-35-1 1..1 MS or
+    root-5-36-1 1..1 MS or
+    root-5-37-1 1..1 MS or
+    root-5-38-1 1..1 MS or
+    root-5-39-1 1..1 MS or
+    root-5-40-1 1..1 MS or
+    root-5-41-1 1..1 MS or
+    root-5-42-1 1..1 MS or
+    root-5-43-1 1..1 MS or
+    root-5-44-1 1..1 MS or
+    root-5-45-1 1..1 MS 
+* identifier[root-4-50-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.50"
+* identifier[root-4-50-1].value 1..1 MS
+* identifier[root-4-51-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.51"
+* identifier[root-4-51-1].value 1..1 MS
+* identifier[root-4-52-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.52"
+* identifier[root-4-52-1].value 1..1 MS
+* identifier[root-4-53-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.53"
+* identifier[root-4-53-1].value 1..1 MS
+* identifier[root-4-54-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.54"
+* identifier[root-4-54-1].value 1..1 MS
+* identifier[root-4-55-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.55"
+* identifier[root-4-55-1].value 1..1 MS
+* identifier[root-4-56-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.56"
+* identifier[root-4-56-1].value 1..1 MS
+* identifier[root-4-57-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.57"
+* identifier[root-4-57-1].value 1..1 MS
+* identifier[root-4-58-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.58"
+* identifier[root-4-58-1].value 1..1 MS
+* identifier[root-4-59-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.59"
+* identifier[root-4-59-1].value 1..1 MS
+* identifier[root-4-60-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.60"
+* identifier[root-4-60-1].value 1..1 MS
+* identifier[root-4-61-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.61"
+* identifier[root-4-61-1].value 1..1 MS
+* identifier[root-4-62-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.62"
+* identifier[root-4-62-1].value 1..1 MS
+* identifier[root-4-63-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.63"
+* identifier[root-4-63-1].value 1..1 MS
+* identifier[root-4-64-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.64"
+* identifier[root-4-64-1].value 1..1 MS
+* identifier[root-4-65-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.65"
+* identifier[root-4-65-1].value 1..1 MS
+* identifier[root-4-66-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.66"
+* identifier[root-4-66-1].value 1..1 MS
+* identifier[root-4-67-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.67"
+* identifier[root-4-67-1].value 1..1 MS
+* identifier[root-4-68-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.68"
+* identifier[root-4-68-1].value 1..1 MS
+* identifier[root-4-69-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.69"
+* identifier[root-4-69-1].value 1..1 MS
+* identifier[root-4-70-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.70"
+* identifier[root-4-70-1].value 1..1 MS
+* identifier[root-4-71-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.71"
+* identifier[root-4-71-1].value 1..1 MS
+* identifier[root-4-72-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.72"
+* identifier[root-4-72-1].value 1..1 MS
+* identifier[root-4-73-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.73"
+* identifier[root-4-73-1].value 1..1 MS
+* identifier[root-4-74-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.74"
+* identifier[root-4-74-1].value 1..1 MS
+* identifier[root-4-75-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.4.75"
+* identifier[root-4-75-1].value 1..1 MS
+* identifier[root-5-1-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.1"
+* identifier[root-5-1-1].value 1..1 MS
+* identifier[root-5-2-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.2"
+* identifier[root-5-2-1].value 1..1 MS
+* identifier[root-5-3-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.3"
+* identifier[root-5-3-1].value 1..1 MS
+* identifier[root-5-4-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.4"
+* identifier[root-5-4-1].value 1..1 MS
+* identifier[root-5-5-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.5"
+* identifier[root-5-5-1].value 1..1 MS
+* identifier[root-5-6-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.6"
+* identifier[root-5-6-1].value 1..1 MS
+* identifier[root-5-7-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.7"
+* identifier[root-5-7-1].value 1..1 MS
+* identifier[root-5-8-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.8"
+* identifier[root-5-8-1].value 1..1 MS
+* identifier[root-5-9-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.9"
+* identifier[root-5-9-1].value 1..1 MS
+* identifier[root-5-10-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.10"
+* identifier[root-5-10-1].value 1..1 MS
+* identifier[root-5-11-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.11"
+* identifier[root-5-11-1].value 1..1 MS
+* identifier[root-5-12-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.12"
+* identifier[root-5-12-1].value 1..1 MS
+* identifier[root-5-13-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.13"
+* identifier[root-5-13-1].value 1..1 MS
+* identifier[root-5-14-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.14"
+* identifier[root-5-14-1].value 1..1 MS
+* identifier[root-5-15-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.15"
+* identifier[root-5-15-1].value 1..1 MS
+* identifier[root-5-16-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.16"
+* identifier[root-5-16-1].value 1..1 MS
+* identifier[root-5-17-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.17"
+* identifier[root-5-17-1].value 1..1 MS
+* identifier[root-5-18-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.18"
+* identifier[root-5-18-1].value 1..1 MS
+* identifier[root-5-19-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.19"
+* identifier[root-5-19-1].value 1..1 MS
+* identifier[root-5-20-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.20"
+* identifier[root-5-20-1].value 1..1 MS
+* identifier[root-5-21-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.21"
+* identifier[root-5-21-1].value 1..1 MS
+* identifier[root-5-22-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.22"
+* identifier[root-5-22-1].value 1..1 MS
+* identifier[root-5-23-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.23"
+* identifier[root-5-23-1].value 1..1 MS
+* identifier[root-5-24-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.24"
+* identifier[root-5-24-1].value 1..1 MS
+* identifier[root-5-25-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.25"
+* identifier[root-5-25-1].value 1..1 MS
+* identifier[root-5-26-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.26"
+* identifier[root-5-26-1].value 1..1 MS
+* identifier[root-5-27-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.27"
+* identifier[root-5-27-1].value 1..1 MS
+* identifier[root-5-28-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.28"
+* identifier[root-5-28-1].value 1..1 MS
+* identifier[root-5-29-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.29"
+* identifier[root-5-29-1].value 1..1 MS
+* identifier[root-5-30-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.30"
+* identifier[root-5-30-1].value 1..1 MS
+* identifier[root-5-31-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.31"
+* identifier[root-5-31-1].value 1..1 MS
+* identifier[root-5-32-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.32"
+* identifier[root-5-32-1].value 1..1 MS
+* identifier[root-5-33-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.33"
+* identifier[root-5-33-1].value 1..1 MS
+* identifier[root-5-34-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.34"
+* identifier[root-5-34-1].value 1..1 MS
+* identifier[root-5-35-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.35"
+* identifier[root-5-35-1].value 1..1 MS
+* identifier[root-5-36-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.36"
+* identifier[root-5-36-1].value 1..1 MS
+* identifier[root-5-37-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.37"
+* identifier[root-5-37-1].value 1..1 MS
+* identifier[root-5-38-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.38"
+* identifier[root-5-38-1].value 1..1 MS
+* identifier[root-5-39-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.39"
+* identifier[root-5-39-1].value 1..1 MS
+* identifier[root-5-40-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.40"
+* identifier[root-5-40-1].value 1..1 MS
+* identifier[root-5-41-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.41"
+* identifier[root-5-41-1].value 1..1 MS
+* identifier[root-5-42-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.42"
+* identifier[root-5-42-1].value 1..1 MS
+* identifier[root-5-43-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.43"
+* identifier[root-5-43-1].value 1..1 MS
+* identifier[root-5-44-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.44"
+* identifier[root-5-44-1].value 1..1 MS
+* identifier[root-5-45-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.45"
+* identifier[root-5-45-1].value 1..1 MS
+* display 0..0
