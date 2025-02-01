@@ -7,4 +7,6 @@ Description: "Bazowy profil wizyty lub pobytu"
 * type 0..1 MS
 * type from PLOrganizationCellType
 * actualPeriod 1..1 MS
-// TODO: dischargeDispositionCode - 2.16.840.1.113883.3.4424.13.11.36 Tryb wypisu ze szpitala
+* admission 0..1 MS
+* admission.dischargeDisposition 0..1 MS
+* admission.dischargeDisposition from PLDischargeDisposition
