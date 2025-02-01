@@ -6,7 +6,7 @@ Description: "Bazowy profil wizyty lub pobytu"
 * ^version = "0.0.1"
 * type 0..1 MS
 * type from PLOrganizationCellType
-* actualPeriod 1..1 MS
-* admission 0..1 MS
-* admission.dischargeDisposition 0..1 MS
-* admission.dischargeDisposition from PLDischargeDisposition
+* period 1..1 MS
+* hospitalization 0..1 MS
+* hospitalization.dischargeDisposition 0..1 MS
+* hospitalization.dischargeDisposition from PLDischargeDisposition

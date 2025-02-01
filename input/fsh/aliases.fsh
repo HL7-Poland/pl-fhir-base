@@ -31,12 +31,13 @@ Alias: $radiology-playbook = http://fhir.loinc.org/ValueSet/loinc-rsna-radiology
 Alias: $bcp-47 = urn:ietf:bcp:47
 Alias: $fhir-document-type = http://hl7.org/fhir/ValueSet/doc-typecodes
 Alias: $v3-confidentiality = http://terminology.hl7.org/CodeSystem/v3-Confidentiality
+Alias: $v3-actCode = http://terminology.hl7.org/CodeSystem/v3-ActCode
 
 // PL Terminology
 Alias: $icd-9-pl = urn:oid:2.16.840.1.113883.3.4424.11.2.6
-Alias: $org-cell-type = "urn:oid:2.16.840.1.113883.3.4424.11.2.4"
+Alias: $org-cell-type = urn:oid:2.16.840.1.113883.3.4424.11.2.4
 Alias: $mri-fieldStrength = http://hl7.org.pl/fhir/CodeSystem/pl-imaging-mriScannerFieldStrength-cs
-Alias: $p1-document-class = "urn:oid:2.16.840.1.113883.3.4424.11.1.32"
-Alias: $practitioner-role = "urn:oid:2.16.840.1.113883.3.4424.11.3.18"
-Alias: $practitioner-specialty = "urn:oid:2.16.840.1.113883.3.4424.11.3.3"
-Alias: $discharge-disposition = "urn:oid:2.16.840.1.113883.3.4424.11.3.21"
+Alias: $p1-document-class = urn:oid:2.16.840.1.113883.3.4424.11.1.32
+Alias: $practitioner-role = urn:oid:2.16.840.1.113883.3.4424.11.3.18
+Alias: $practitioner-specialty = urn:oid:2.16.840.1.113883.3.4424.11.3.3
+Alias: $discharge-disposition = urn:oid:2.16.840.1.113883.3.4424.11.3.21

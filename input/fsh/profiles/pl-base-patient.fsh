@@ -32,10 +32,10 @@ Description: "Bazowy profil pacjenta"
 * name[unknown].prefix 0..0
 * name[unknown].suffix 0..0
 * name[unknown].period 0..0
-* name[unknown].name.extension.url 1..1
-* name[unknown].name.extension.url = "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
-* name[unknown].name.extension.valueCode 1..1
-* name[unknown].name.extension.valueCode = #unknown
+* name[unknown].extension.url 1..1
+* name[unknown].extension.url = "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+* name[unknown].extension.valueCode 1..1
+* name[unknown].extension.valueCode = #unknown
 * name[known].given 1..2
 * name[known].family 1..1
 * address only PLBaseAddress

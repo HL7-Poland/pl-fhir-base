@@ -6,5 +6,5 @@ Description: "Rodzaj placówki medycznej wyrażony jako specjalność komórki o
 * ^version = "0.0.1"
 * identifier ..0
 * type 1..1
-* type ^patternCodeableConcept.coding.system = $orgCell-type
+* type ^patternCodeableConcept.coding.system = $ids-medicalEntityCell
 * managingOrganization ..0

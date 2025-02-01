@@ -13,6 +13,6 @@ Description: "Bazowy profil podmiotu medycznego (świadczeniodawcy)"
 * identifier contains
   pwdl 1..1 and
   other 0..1
-* identifier[pwdl].system = $ids-pwdl
+* identifier[pwdl].system = $ids-medicalEntity
 * name 1..1
 * contact 1..

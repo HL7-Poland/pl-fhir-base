@@ -18,15 +18,10 @@ Description: "Author dokumentu medycznego"
 * identifier[physicianId].system = $ids-npwz-doc
 * identifier[nurseId].system = $ids-npwz-nurse
 * identifier[labDiagnosticianId].system = $ids-npwz-lab
-* name 1..*
 * practitioner 1..1 MS
 * practitioner only Reference(PLBasePractitioner)
 * organization 1..1 MS
-* organization only 
-  Reference(PLBaseOrganizationMedicalPracticeServiceEntity) or
-  Reference(PLBaseOrganizationMedicalEntityUnit) or
-  Reference(PLBaseOrganizationMedicalEntityCell) or
-  Reference(PLBaseOrganizationPharmacy)
+* organization only Reference(PLBaseOrganizationMedicalPracticeServiceEntity) // or Reference(PLBaseOrganizationMedicalEntityUnit) or Reference(PLBaseOrganizationMedicalEntityCell) or Reference(PLBaseOrganizationPharmacy)
 * code 1..1 MS
 * code from PLPractitionerRole
 * specialty from PLPractitionerSpecialty

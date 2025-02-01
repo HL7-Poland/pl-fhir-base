@@ -11,12 +11,11 @@ Description: "Placówka medyczna/Miejsce udzielania świadczeń należące do ok
 * identifier ^slicing.description = "Różne rodzaje miejsc udzielania świadczeń"
 * identifier ^slicing.ordered = false
 * identifier contains
-  orgUnit 0..1 and
-  orgCell 0..1 and
-  other 0..1
-* identifier[orgUnit].system = $ids-orgUnit
-* identifier[orgCell].system = $ids-orgCell
-* type ^patternCodeableConcept.coding.system = $orgCell-type
-* contact 1..
-* managingOrganization 1..
-* managingOrganization only Reference(PLBaseMedicalProvider)
+  medicalEntityUnit 0..1 and
+  medicalEntityCell 0..1
+* identifier[medicalEntityUnit].system = $ids-medicalEntityUnit
+* identifier[medicalEntityCell].system = $ids-medicalEntityCell
+* type ^patternCodeableConcept.coding.system = $ids-medicalEntityCell
+* telecom 1..*
+* managingOrganization 1..1
+* managingOrganization only Reference(PLBaseOrganizationMedicalProvider)
