@@ -7,19 +7,17 @@ Description: "Author dokumentu medycznego"
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
-* identifier ^slicing.description = "NPWZ różnych zawodów medycznych"
+* identifier ^slicing.description = "Pule identyfikatorów praw wykonywania zawodu różnych zawodów medycznych"
 * identifier ^slicing.ordered = false
 * identifier contains
-  pharm 0..1 and
-  doc 0..1 and
-  nurse 0..1 and
-  lab 0..1 and
-//TODO: other - zamienić na zasady dotyczące domyślnego slice'a (default)
-  other 0..*
-* identifier[pharm].system = $npwz-pharm
-* identifier[doc].system = $npwz-doc
-* identifier[nurse].system = $npwz-nurse
-* identifier[lab].system = $npwz-lab
+  pharmacistId 0..1 and
+  physicianId 0..1 and
+  nurseId 0..1 and
+  labDiagnosticianId 0..1
+* identifier[pharmacistId].system = $ids-npwz-pharm
+* identifier[physicianId].system = $ids-npwz-doc
+* identifier[nurseId].system = $ids-npwz-nurse
+* identifier[labDiagnosticianId].system = $ids-npwz-lab
 * name 1..*
 * practitioner 1..1 MS
 * practitioner only Reference(PLBasePractitioner)
