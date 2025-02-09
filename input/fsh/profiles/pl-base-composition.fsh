@@ -8,6 +8,7 @@ Description: "Dane nagłówka dokumentu medycznego"
 * extension contains
     CompositionVersion named version 1..1 MS and
     CompositionConfidentialityCode named confidentialityCode 1..1 MS
+    CompositionInformationRecipient named informationRecipient 0..* MS
 * identifier 1..1 MS
 * identifier.system 1..1 MS
 * identifier.value 1..1 MS
