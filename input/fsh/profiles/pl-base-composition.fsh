@@ -26,6 +26,7 @@ Description: "Dane nagłówka dokumentu medycznego"
 * author only Reference(PLBasePractitionerRoleDocumentAuthor)
 * title 1..1 MS
 * confidentiality 1..1 MS
+* confidentiality from PLConfidentiality
 * attester 1..* MS
 * attester ^slicing.discriminator.type = #value
 * attester ^slicing.discriminator.path = "mode"
@@ -51,4 +52,12 @@ Description: "Dane nagłówka dokumentu medycznego"
 * relatesTo.extension contains
     CompositionVersion named version 1..1 MS
 * relatesTo.target[x] only Identifier
-
+* event.code 1..* MS
+* event.code ^slicing.discriminator.type = #value
+* event.code ^slicing.discriminator.path = "system"
+* event.code ^slicing.rules = #open
+* event.code ^slicing.description = "Typ usługi medycznej"
+* event.code ^slicing.ordered = false
+* event.code contains 
+    icd9PLCode 1..1 MS
+* event.code[icd9PLCode] from PLServiceEventType
