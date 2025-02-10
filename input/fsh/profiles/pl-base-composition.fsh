@@ -3,12 +3,14 @@ Parent: Composition
 Id: pl-base-composition
 Title: "Composition (PL)"
 Description: "Dane nagłówka dokumentu medycznego"
-* ^version = "0.0.1"
+* ^version = "0.1.0"
 * language from PLDocumentLanguage
 * extension contains
     CompositionVersion named version 1..1 MS and
-    CompositionConfidentialityCode named confidentialityCode 1..1 MS
     CompositionInformationRecipient named informationRecipient 0..* MS
+    CompositionBasedOnOrder named basedOnOrder 0..* MS
+    CompositionPayorIdentifier named payorIdentifier 0..1 MS
+    CompositionReimbursementContractIdentifier named reimbursementContractIdentifier 0..1 MS
 * identifier 1..1 MS
 * identifier.system 1..1 MS
 * identifier.value 1..1 MS
@@ -24,6 +26,7 @@ Description: "Dane nagłówka dokumentu medycznego"
 * author 1..1 MS
 * author only Reference(PLBasePractitionerRoleDocumentAuthor)
 * title 1..1 MS
+* confidentiality 1..1 MS
 * attester 1..* MS
 * attester ^slicing.discriminator.type = #value
 * attester ^slicing.discriminator.path = "mode"
