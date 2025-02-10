@@ -3,6 +3,9 @@ Parent: PractitionerRole
 Id: pl-base-practitionerole-documentauthor
 Title: "PractitionerRole: Author (PL)"
 Description: "Author dokumentu medycznego"
+* ^version = "0.1.0"
+* extension contains 
+  PractitionerRoleReimbursementContractIdentifier named reimbursementContractIdentifier 0..1 MS
 * identifier 1..* MS
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"
