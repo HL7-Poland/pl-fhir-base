@@ -3,6 +3,7 @@ Parent: PLBaseOrganization
 Id: pl-base-organization-medicalentityunit
 Title: "Organization: Medical Entity Unit (PL)"
 Description: "Jednostka organizacyjna podmiotu leczniczego"
+* ^version = "0.1.0"
 * identifier 1..1 MS
 * identifier.system 1..1 MS
 * identifier.system = $ids-medicalEntityUnit

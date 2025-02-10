@@ -3,6 +3,7 @@ Parent: PLBaseOrganization
 Id: pl-base-organization-medicalentitycell
 Title: "Organization: Medical Entity Cell (PL)"
 Description: "Komórka organizacyjna podmiotu leczniczego"
+* ^version = "0.1.0"
 * identifier 1..1 MS
 * identifier.system 1..1 MS
 * identifier.system = $ids-medicalEntityCell
@@ -12,6 +13,7 @@ Description: "Komórka organizacyjna podmiotu leczniczego"
 * contact.telecom 1..1 MS
 * address 1..1 MS
 * partOf 1..1 MS
+* partOf only PLBaseReferenceMedicalEntityCompany
 // TODO: Medical entity company and unit references for portOf 
 // * partOf ^slicing.discriminator.type = #type
 // * partOf ^slicing.discriminator.path = "{$this}"

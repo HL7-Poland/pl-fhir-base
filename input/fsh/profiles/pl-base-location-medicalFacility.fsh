@@ -3,7 +3,7 @@ Parent: Location
 Id: pl-base-location-medicalfacility
 Title: "Location: Medical Facility (PL)"
 Description: "Placówka medyczna/Miejsce udzielania świadczeń należące do określonego podmiotu medycznego"
-* ^version = "0.0.1"
+* ^version = "0.1.0"
 * identifier 1..*
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"

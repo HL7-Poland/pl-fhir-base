@@ -3,6 +3,7 @@ Parent: PractitionerRole
 Id: pl-base-practitionerole-informationrecipient
 Title: "PractitionerRole: Information Recipient (PL)"
 Description: "Odbiorca informacji przekazywanej w dokumencie medycznym"
+* ^version = "0.1.0"
 * identifier 1..* MS
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"

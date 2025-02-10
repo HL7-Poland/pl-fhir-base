@@ -3,7 +3,7 @@ Parent: Practitioner
 Id: pl-base-practitioner
 Title: "Practitioner (PL)"
 Description: "Bazowy profil pracownika medycznego"
-* ^version = "0.0.1"
+* ^version = "0.1.0"
 * identifier 1..* MS
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"

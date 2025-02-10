@@ -3,7 +3,7 @@ Id: address-teryt
 Title: "Address: TERYT Code (PL)"
 Description: "Kod TERYT"
 Context: Address
-* ^version = "0.0.1"
+* ^version = "0.1.0"
 * extension contains
     TERC named tercIdentifier 1..1 and
     SIMC named simcIdentifier 1..1
@@ -13,7 +13,7 @@ Id: teryt-terc
 Title: "Address: TERC Code (PL)"
 Description: "Kod TERC"
 Context: Teryt
-* ^version = "0.0.1"
+* ^version = "0.1.0"
 * value[x] only Coding
 * valueCoding.system = $ids-terc
 
@@ -22,6 +22,6 @@ Id: teryt-simc
 Title: "Address: SIMC Code (PL)"
 Description: "Kod SIMC"
 Context: Teryt
-* ^version = "0.0.1"
+* ^version = "0.1.0"
 * value[x] only Coding
 * valueCoding.system = $ids-simc
