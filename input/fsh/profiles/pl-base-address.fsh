@@ -1,5 +1,5 @@
 Profile: PLBaseAddress
-Parent: Address
+Parent: AddressEu
 Id: pl-base-address
 Title: "Address (PL)"
 Description: "Bazowy adres"
@@ -10,14 +10,8 @@ Description: "Bazowy adres"
 * line.extension ^slicing.discriminator.path = "url"
 * line.extension ^slicing.rules = #open
 * line.extension contains
-    $iso21090-ADXP-streetName named streetName 0..* MS and
-    $iso21090-ADXP-houseNumber named houseNumber 0..* MS and
     $iso21090-ADXP-unitID named unitID 0..* MS and
-    $iso21090-ADXP-postBox named postBox 0..* MS
-* line.extension[streetName].value[x] only string
-* line.extension[houseNumber].value[x] only string
 * line.extension[unitID].value[x] only string
-* line.extension[postBox].value[x] only string    
 * country.extension contains 
-    IsoAlpha3CountryCode named isoAlpha3CountryCode 0..1 MS and
-    IsoNumericCountryCode named isoNumericCountryCode 0..1 MS
+    IsoAlpha3CountryCode named altIsoAlpha3CountryCode 0..1 MS and
+    IsoNumericCountryCode named altIsoNumericCountryCode 0..1 MS
