@@ -17,7 +17,6 @@ Alias: $ids-pharmacy = urn:oid:2.16.840.1.113883.3.4424.2.6
 Alias: $iso3166-1-2 = http://hl7.org/fhir/ValueSet/iso3166-1-2
 Alias: $iso3166-1-3 = http://hl7.org/fhir/ValueSet/iso3166-1-3
 Alias: $iso3166-1-N = http://hl7.org/fhir/ValueSet/iso3166-1-N
-Alias: $iso21090-ADXP-unitID = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-unitID
 
 // PL Teritorial
 Alias: $ids-terc = http://hl7.org.pl/fhir/NamingSystem/teryt-terc
@@ -41,3 +40,10 @@ Alias: $p1-document-class = urn:oid:2.16.840.1.113883.3.4424.11.1.32
 Alias: $practitioner-role = urn:oid:2.16.840.1.113883.3.4424.11.3.18
 Alias: $practitioner-specialty = urn:oid:2.16.840.1.113883.3.4424.11.3.3
 Alias: $discharge-disposition = urn:oid:2.16.840.1.113883.3.4424.11.3.21
+
+// Extensions
+Alias: $iso21090-ADXP-houseNumber = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber
+Alias: $iso21090-ADXP-postBox = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox
+Alias: $iso21090-ADXP-streetName = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName
+Alias: $iso21090-ADXP-unitID = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-unitID
+Alias: $iso21090-SC-coding = http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding
