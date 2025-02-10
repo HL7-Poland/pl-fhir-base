@@ -7,10 +7,9 @@ Description: "Dane nagłówka dokumentu medycznego"
 * language from PLDocumentLanguage
 * extension contains
     CompositionVersion named version 1..1 MS and
-    CompositionInformationRecipient named informationRecipient 0..* MS
-    CompositionBasedOnOrder named basedOnOrder 0..* MS
+    CompositionInformationRecipient named informationRecipient 0..* MS and
+    CompositionBasedOnOrder named basedOnOrder 0..* MS and
     CompositionPayorIdentifier named payorIdentifier 0..1 MS
-    CompositionReimbursementContractIdentifier named reimbursementContractIdentifier 0..1 MS
 * identifier 1..1 MS
 * identifier.system 1..1 MS
 * identifier.value 1..1 MS

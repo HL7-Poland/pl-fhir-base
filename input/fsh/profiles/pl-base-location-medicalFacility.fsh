@@ -18,4 +18,4 @@ Description: "Placówka medyczna/Miejsce udzielania świadczeń należące do ok
 * type ^patternCodeableConcept.coding.system = $ids-medicalEntityCell
 * telecom 1..*
 * managingOrganization 1..1
-* managingOrganization only Reference(PLBaseOrganizationMedicalProvider)
+* managingOrganization only Reference(PLBaseOrganizationMedicalEntity)

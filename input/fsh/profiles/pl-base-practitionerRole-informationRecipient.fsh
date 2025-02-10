@@ -22,7 +22,7 @@ Description: "Odbiorca informacji przekazywanej w dokumencie medycznym"
 * practitioner 1..1 MS
 * practitioner only Reference(PLBasePractitioner)
 * organization 1..1 MS
-* organization only Reference(PLBaseOrganizationMedicalPractice or PLBaseOrganizationMedicalEntity)
+* organization only Reference(PLBaseOrganizationMedicalPracticeServiceEntity or PLBaseOrganizationMedicalEntity)
 * code 1..1 MS
 * code from PLPractitionerRole
 * specialty from PLPractitionerSpecialty

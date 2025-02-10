@@ -12,7 +12,7 @@ Description: "Bazowy adres"
 * line.extension contains
     $iso21090-ADXP-streetName named streetName 0..* MS and
     $iso21090-ADXP-houseNumber named houseNumber 0..* MS and
-    $iso21090-ADXP-unitID named unitID 0..* MS
+    $iso21090-ADXP-unitID named unitID 0..* MS and
     $iso21090-ADXP-postBox named postBox 0..* MS
 * line.extension[streetName].value[x] only string
 * line.extension[houseNumber].value[x] only string

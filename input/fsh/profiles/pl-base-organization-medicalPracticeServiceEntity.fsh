@@ -11,6 +11,7 @@ Description: "Podmiot udzielania świadzczeń w ramach praktyki zawodowej"
 * identifier ^slicing.description = "Pula identyfikatorów miejsc udzielania świadczeń w ramach praktyk zawodowych nadanych przez właściwą izbę lekarską lub izbę pielęgniarek i połonych"
 * identifier ^slicing.ordered = false
 * identifier 1..1 MS
+* identifier contains
     root-4-50-1 0..1 MS and
     root-4-51-1 0..1 MS and
     root-4-52-1 0..1 MS and

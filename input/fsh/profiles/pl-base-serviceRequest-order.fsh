@@ -6,6 +6,6 @@ Description: "Dane zlecenia"
 * ^version = "0.1.0"
 * identifier 1..* MS
 * intent = #order
-* subject only (PLBasePatient)
-* encounter only (PLBaseEncounter)
+* subject only Reference(PLBasePatient)
+* encounter only Reference(PLBaseEncounter)
 
