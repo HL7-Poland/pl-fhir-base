@@ -1,5 +1,5 @@
 Profile: PLBasePractitionerRoleServiceRequester
-Parent: PractitionerRole
+Parent: PLBasePractitionerRole
 Id: pl-base-practitionerrole-servicerequester
 Title: "PractitionerRole: Service Requester (PL)"
 Description: "Zlecający usługę medyczną"
