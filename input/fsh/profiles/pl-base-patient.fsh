@@ -1,10 +1,10 @@
 Profile: PLBasePatient
-Parent: Patient
+Parent: PatientEuCore
 Id: pl-base-patient
 Title: "Patient (PL)"
 Description: "Bazowy profil pacjenta"
 * ^version = "0.1.0"
-* identifier 1..
+* identifier 1..* MS
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
@@ -15,29 +15,10 @@ Description: "Bazowy profil pacjenta"
 * identifier[pesel].system = $ids-pesel
 * identifier[pesel].value 1..1 MS
 * name 1..1 MS
-* name ^slicing.discriminator.type = #value
-* name ^slicing.discriminator.path = "use"
-* name ^slicing.rules = #open
-* name ^slicing.description = "Rozróżnienie pacjenta o ustalonej tożsamości od pacjenta NN"
-* name ^slicing.ordered = false
-* name contains
-  unknown 0..1 MS and
-  known 0..1 MS
-* name[unknown].use = #anonymous
-* name[unknown].text = "NN"
-* name[unknown].family 0..0
-* name[unknown].given 0..0
-* name[unknown].prefix 0..0
-* name[unknown].suffix 0..0
-* name[unknown].period 0..0
-* name[unknown].extension.url 1..1
-* name[unknown].extension.url = "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
-* name[unknown].extension.valueCode 1..1
-* name[unknown].extension.valueCode = #unknown
-* name[known].given 1..2
-* name[known].family 1..1
 * address only PLBaseAddress
+* contact.address only PLBaseAddress
 * multipleBirth[x] only integer
+* generalPractitioner only Reference(PLBaseOrganization or PLBasePractitionerRole or PLBasePractitioner) 
 * managingOrganization only Reference(PLBaseOrganization)
 
 // TODO:
