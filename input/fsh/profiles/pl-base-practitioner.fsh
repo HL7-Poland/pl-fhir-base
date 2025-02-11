@@ -19,4 +19,5 @@ Description: "Bazowy profil pracownika medycznego"
 * identifier[physicianId].system = $ids-npwz-doc
 * identifier[nurseId].system = $ids-npwz-nurse
 * identifier[labDiagnosticianId].system = $ids-npwz-lab
+* address only PLBaseAddress
 * name 1..*
