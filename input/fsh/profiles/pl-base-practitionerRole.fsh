@@ -1,5 +1,5 @@
 Profile: PLBasePractitionerRole
-Parent: PractitionerRole
+Parent: PractitionerRoleEuCore
 Id: pl-base-practitionerrole
 Title: "PractitionerRole (PL)"
 Description: "Rola pracownika medycznego"
