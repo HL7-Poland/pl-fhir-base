@@ -1,5 +1,5 @@
 Profile: PLBaseLocationMedicalFacilityType
-Parent: Location
+Parent: PLBaseLocation
 Id: pl-base-location-medicalfacilitytype
 Title: "Location: Medical Facility Type (PL)"
 Description: "Rodzaj placówki medycznej wyrażony jako specjalność komórki organizacyjnej (wg cz.VIII kodu resortowego)"

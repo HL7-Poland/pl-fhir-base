@@ -1,5 +1,5 @@
 Profile: PLBasePractitionerRoleDocumentAuthor
-Parent: PractitionerRole
+Parent: PLBasePractitionerRole
 Id: pl-base-practitionerole-documentauthor
 Title: "PractitionerRole: Author (PL)"
 Description: "Author dokumentu medycznego"

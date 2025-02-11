@@ -1,5 +1,5 @@
 Profile: PLBaseLocationMedicalFacility
-Parent: Location
+Parent: PLBaseLocation
 Id: pl-base-location-medicalfacility
 Title: "Location: Medical Facility (PL)"
 Description: "Placówka medyczna/Miejsce udzielania świadczeń należące do określonego podmiotu medycznego"
