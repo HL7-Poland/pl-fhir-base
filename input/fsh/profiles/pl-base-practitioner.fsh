@@ -1,5 +1,5 @@
 Profile: PLBasePractitioner
-Parent: Practitioner
+Parent: PractitionerEuCore
 Id: pl-base-practitioner
 Title: "Practitioner (PL)"
 Description: "Bazowy profil pracownika medycznego"
@@ -20,4 +20,3 @@ Description: "Bazowy profil pracownika medycznego"
 * identifier[nurseId].system = $ids-npwz-nurse
 * identifier[labDiagnosticianId].system = $ids-npwz-lab
 * address only PLBaseAddress
-* name 1..*
