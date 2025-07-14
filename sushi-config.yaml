@@ -39,9 +39,9 @@ dependencies:
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
 #
-# pages:
-#   index.md:
-#     title: Example Home
+pages:
+  index.md:
+    title: Strona główna
 #   implementation.xml:
 #   examples.xml:
 #     title: Examples Overview
@@ -71,11 +71,10 @@ dependencies:
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
-  Strona główna: index.html
-  Spis treści: toc.html
-  Wprowadzenie: background.html
-  Definicje struktur: artifacts.html
-  Słwoniki i zbiory wartości: terminologies.html
+  Strona główna: index.html  
+  Spis treści: toc.html  
+  Wprowadzenie: background.html  
+  Definicje struktur: artifacts.html  
 
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮

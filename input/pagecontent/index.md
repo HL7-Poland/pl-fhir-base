@@ -1,3 +1,4 @@
+
 ### Polska specyfikacja bazowa standardu HL7 FHIR
 
 
@@ -8,12 +9,12 @@ Specyfikacja definiuje bazowy zbiór wspólnych reguł wymiany danych medycznych
 
 ### Cel
 
-Specyfikacja ma stanowić podstawę do opracowywania polskich specyfikacji pochodnych dla poszczególnych dziedzin i przypadków użycia. Specyfikacje pochodne standardu HL7 FHIR powinny być zgodne ze specyfikacją bazową, co ma również zapewnić ich zgodność ze specyfikacjami europejskimi.
+Specyfikacja stanowi podstawę do opracowywania polskich specyfikacji pochodnych standardu HL7 FHIR dla poszczególnych dziedzin i przypadków użycia. Specyfikacje pochodne standardu powinny być zgodne ze specyfikacją bazową, co ma również zapewnić ich zgodność ze specyfikacjami europejskimi.
 
 ### Autorzy
 
 Specyfikacja została opracowana przez zespół ekspertów Komitetu Technicznego Polskiego Stowarzyszenia HL7.
 
-Sebastian Bojanowski
-Roman Radomski
+- Sebastian Bojanowski
+- Roman Radomski
 
