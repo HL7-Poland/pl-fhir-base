@@ -10,7 +10,7 @@ Description: "Bazowy adres"
 * line.extension ^slicing.discriminator.path = "url"
 * line.extension ^slicing.rules = #open
 * line.extension contains
-    $iso21090-ADXP-unitID named unitID 0..* MS and
+    $iso21090-ADXP-unitID named unitID 0..* MS
 * line.extension[unitID].value[x] only string
 * country.extension contains 
     IsoAlpha3CountryCode named altIsoAlpha3CountryCode 0..1 MS and

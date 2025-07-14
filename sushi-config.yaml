@@ -3,7 +3,7 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: Hl7PlBaseIg
+id: hl7.fhir.pl.base
 canonical: http://hl7.org.pl/fhir/ig/pl-base
 name: hl7.fhir.pl.base.r4
 # title: Example Title
@@ -27,7 +27,7 @@ publisher:
 dependencies:
   hl7.fhir.extensions.r4: 4.0.1
   hl7.fhir.eu.extensions: 0.1.0
-  hl7.fhir.eu.base.r4: current
+  hl7.fhir.eu.base: current
 #
 #
 #
