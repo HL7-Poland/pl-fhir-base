@@ -6,19 +6,17 @@
 id: Hl7PlBaseIg
 canonical: http://hl7.org.pl/fhir/ig/pl-base
 name: hl7.fhir.pl.base.r4
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
-version: 0.1.0
+license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
+version: 0.1.1
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: ci-build
-# license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
-# jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+jurisdiction: urn:iso:std:iso:3166#PL "Poland" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
   name: HL7 Poland
   url: http://hl7.org.pl
-  # email: test@example.org
+  email: office@hl7.org.pl
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
@@ -73,8 +71,12 @@ dependencies:
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
-  Home: index.html
-  Artifacts: artifacts.html
+  Strona główna: index.html
+  Spis treści: toc.html
+  Wprowadzenie: background.html
+  Definicje struktur: artifacts.html
+  Słwoniki i zbiory wartości: terminologies.html
+
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
