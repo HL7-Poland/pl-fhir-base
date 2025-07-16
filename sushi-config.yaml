@@ -6,6 +6,8 @@
 id: Hl7PlBaseIg
 canonical: http://hl7.org.pl/fhir/ig/pl-base
 name: hl7.fhir.pl.base.r4
+title: Polska specyfikacja bazowa standardu HL7 FHIR (HL7 FHIR PLBase)
+description: Polska specyfikacja bazowa standardu HL7 FHIR
 status: draft # draft | active | retired | unknown
 license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 version: 0.1.1
@@ -42,6 +44,8 @@ dependencies:
 pages:
   index.md:
     title: Strona główna
+#   artifacts.md: 
+#     title: Definicje struktur, rozszerzeń i zbiorów wartości
 #   implementation.xml:
 #   examples.xml:
 #     title: Examples Overview
@@ -74,7 +78,8 @@ menu:
   Strona główna: index.html  
   Spis treści: toc.html  
   Wprowadzenie: background.html  
-  Definicje struktur: artifacts.html  
+  Model logiczny: model.html
+  Definicje: artifacts.html  
 
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
