@@ -44,8 +44,8 @@ dependencies:
 pages:
   index.md:
     title: Strona główna
-#   artifacts.md: 
-#     title: Definicje struktur, rozszerzeń i zbiorów wartości
+  model.md: 
+    title: Logiczny model danych
 #   implementation.xml:
 #   examples.xml:
 #     title: Examples Overview
@@ -78,7 +78,7 @@ menu:
   Strona główna: index.html  
   Spis treści: toc.html  
   Wprowadzenie: background.html  
-  Model logiczny: model.html
+  Model logiczny: model.html  
   Definicje: artifacts.html  
 
 
