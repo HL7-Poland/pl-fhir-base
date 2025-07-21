@@ -16,6 +16,7 @@ Description: "Placówka medyczna/Miejsce udzielania świadczeń należące do ok
 * identifier[medicalEntityUnit].system = $ids-medicalEntityUnit
 * identifier[medicalEntityCell].system = $ids-medicalEntityCell
 * type ^patternCodeableConcept.coding.system = $ids-medicalEntityCell
-* telecom 1..*
+* contact 1..*
+* contact.telecom 1..*
 * managingOrganization 1..1
 * managingOrganization only Reference(PLBaseOrganizationMedicalEntity)

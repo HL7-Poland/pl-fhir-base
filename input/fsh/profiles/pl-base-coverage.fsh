@@ -6,5 +6,5 @@ Description: "Profil bazowy dla produktu medycznego/modelu rozliczeń/ubezpiecze
 * ^version = "0.1.0"
 * identifier 1..*
 * beneficiary only Reference(PLBasePatient)
-* payor only Reference(PLBaseOrganizationPayor)
+* insurer only Reference(PLBaseOrganizationInsurer)
 * contract only Reference(PLBaseContract)

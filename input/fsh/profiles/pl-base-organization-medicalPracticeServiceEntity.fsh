@@ -226,8 +226,8 @@ Description: "Podmiot udzielania świadzczeń w ramach praktyki zawodowej"
 * identifier[root-5-45-1].system = "urn:oid:2.16.840.1.113883.3.4424.2.5.45.1"
 * identifier[root-5-45-1].value 1..1 MS
 * name 1..1 MS
-* contact 1..1 MS
-* contact.telecom 1..1 MS
-* address 1..1 MS
+* contact 1..* MS
+* contact.telecom 1..* MS
+* contact.address 1..1 MS
 * partOf 1..1 MS
 * partOf only PLBaseReferenceMedicalPractice

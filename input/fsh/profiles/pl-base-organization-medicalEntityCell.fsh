@@ -9,9 +9,9 @@ Description: "Komórka organizacyjna podmiotu leczniczego"
 * identifier.system = $ids-medicalEntityCell
 * identifier.value 1..1 MS
 * name 1..1 MS
-* contact 1..1 MS
-* contact.telecom 1..1 MS
-* address 1..1 MS
+* contact 1..* MS
+* contact.telecom 1..* MS
+* contact.address 1..1 MS
 * partOf 1..1 MS
 * partOf only PLBaseReferenceMedicalEntityCompany
 // TODO: Medical entity company and unit references for portOf 
