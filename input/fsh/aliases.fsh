@@ -47,3 +47,5 @@ Alias: $iso21090-ADXP-postBox = http://hl7.org/fhir/StructureDefinition/iso21090
 Alias: $iso21090-ADXP-streetName = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName
 Alias: $iso21090-ADXP-unitID = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-unitID
 Alias: $iso21090-SC-coding = http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding
+
+// Remove this comment
