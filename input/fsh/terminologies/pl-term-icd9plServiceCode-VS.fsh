@@ -1,5 +1,5 @@
-ValueSet: PLServiceEventType
-Id: pl-service-event-type
+ValueSet: Icd9PLServiceCodeVS
+Id: pl-term-icd9plServiceCode-VS
 Title: "Service event type (PL)"
 Description: "Typ usługi medycznej według ICD-9 PL"
 // TODO: Rozważyć zmianę nazwy na PLIcd9 (?)
@@ -4482,7 +4482,6 @@ Description: "Typ usługi medycznej według ICD-9 PL"
 * $icd-9-pl#59.796 "Operacja wysiłkowego nietrzymania moczu z dostępu nadłonowego (typu Marschalla-Marchettiego-Kranza, Burcha)"
 * $icd-9-pl#59.797 "Operacja wysiłkowego nietrzymania moczu z dostępu nadłonowego z użyciem taśmy (sling) z tkanek własnych chorej lub z materiału syntetycznego"
 * $icd-9-pl#59.799 "Zabiegi z powodu wysiłkowego nietrzymania moczu - inne - nieokreślone inaczej"
-* $icd-9-pl#59.799 "Zabiegi z powodu wysiłkowego nietrzymania moczu - inne - nie określone inaczej"
 * $icd-9-pl#59.81 "Odprowadzenie moczu z nerki przez cewnik moczowodowy"
 * $icd-9-pl#59.82 "Wprowadzenie cewnika moczowodowego"
 * $icd-9-pl#59.83 "Rozszerzenie ujścia pęcherzowego moczowodu"
