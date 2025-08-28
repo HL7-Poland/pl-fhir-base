@@ -58,3 +58,17 @@ p, li {
 table.grid td {
   font-size: 13px;
 }
+
+#segment-header > .container {
+  height: 85px;
+}
+
+#project-nav, #family-nav {
+  margin-top: 10px;
+}
+#project-nav {
+  margin-right: 15px;;
+}
+#family-nav {
+  margin-left: 15px;
+}
