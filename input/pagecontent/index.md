@@ -1,3 +1,3 @@
-# .
+# Page under construction
 
-Feel free to modify this index page with your own awesome content!
+The official publication is planned for 15 Sep 2025.
