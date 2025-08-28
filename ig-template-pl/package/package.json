@@ -1,0 +1,11 @@
+{
+  "name": "ig-template-pl",
+  "version": "0.1",
+  "type": "fhir.template",
+  "license": "CC0-1.0",
+  "description": "Custom FHIR IG template for HL7 Poland",
+  "base": "fhir.base.template",
+  "dependencies": {
+    "fhir.base.template" : "current"
+  }
+}
