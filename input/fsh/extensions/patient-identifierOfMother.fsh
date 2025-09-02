@@ -4,7 +4,7 @@ Title: "Identyfikator noworodka (PL)"
 Description: "Identyfikator matki jako identyfikator noworodka"
 Context: Patient
 * extension ^slicing.discriminator.type = #value
-* extension ^slicing.discriminator.path = "system"
+* extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
 * extension ^slicing.description = "Różne pule identyfikatorów"
 * extension ^slicing.ordered = false
