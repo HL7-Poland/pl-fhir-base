@@ -1,8 +1,8 @@
-Profile: PLBaseOrganizationMedicalPracticeServiceEntity
-Parent: PLBaseOrganization
+Profile: PLBaseMedicalPracticeServiceEntity
+Parent: Organization
 Id: pl-base-organization-medicalpracticeserviceentity
 Title: "Organization: Medical Practice Service Entity (PL)"
-Description: "Podmiot udzielania świadzczeń w ramach praktyki zawodowej"
+Description: "Podmiot udzielania świadczeń w ramach praktyki zawodowej"
 * ^version = "0.1.0"
 * identifier 1..1 MS
 * identifier ^slicing.discriminator.type = #value

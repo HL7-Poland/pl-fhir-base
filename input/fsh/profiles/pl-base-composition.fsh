@@ -48,7 +48,7 @@ Description: "Dane nagłówka dokumentu medycznego"
 * attester[legalAuthenticator].party 1..1 MS
 * attester[legalAuthenticator].party only Reference(PLBasePractitioner)
 * custodian 1..1 MS
-* custodian only Reference(PLBaseOrganization)
+* custodian only Reference(Organization)
 * relatesTo 0..1 MS
 * relatesTo.extension contains
     CompositionVersion named version 1..1 MS

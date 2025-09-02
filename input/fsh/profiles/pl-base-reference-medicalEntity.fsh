@@ -2,7 +2,7 @@ Profile: PLBaseReferenceMedicalEntity
 Parent: Reference
 Id: pl-base-reference-medicalentity
 Title: "Reference: Medical Entity (PL)"
-Description: "Identyfikator podmiotu leczeniczego"
+Description: "Identyfikator podmiotu leczniczego"
 * ^version = "0.1.0"
 * reference 0..0
 * type 0..0

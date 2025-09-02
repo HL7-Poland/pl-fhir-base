@@ -1,6 +1,6 @@
-Profile: PLBaseOrganizationMedicalEntity
-Parent: PLBaseOrganization
-Id: pl-base-organization-medicalentity
+Profile: PLBaseMedicalEntity
+Parent: Organization
+Id: pl-base-organization-medicalEntity
 Title: "Organization: MedicalProvider (PL)"
 Description: "Bazowy profil podmiotu medycznego (świadczeniodawcy)"
 * ^version = "0.1.0"
@@ -8,3 +8,4 @@ Description: "Bazowy profil podmiotu medycznego (świadczeniodawcy)"
 * identifier.system 1..1 MS
 * identifier.system = $ids-medicalEntity
 * identifier.value 1..1 MS
+* contact.address only PLBaseAddress

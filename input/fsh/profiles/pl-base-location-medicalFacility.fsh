@@ -19,4 +19,4 @@ Description: "Placówka medyczna/Miejsce udzielania świadczeń należące do ok
 * contact 1..*
 * contact.telecom 1..*
 * managingOrganization 1..1
-* managingOrganization only Reference(PLBaseOrganizationMedicalEntity)
+* managingOrganization only Reference(PLBaseMedicalEntity)

@@ -1,6 +1,6 @@
 Profile: PLBaseServiceRequestOrder
 Parent: ServiceRequest
-Id: pl-base-servicerequest-order
+Id: pl-base-serviceRequest-order
 Title: "Service Request: Order (PL)"
 Description: "Dane zlecenia"
 * ^version = "0.1.0"

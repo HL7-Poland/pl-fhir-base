@@ -1,5 +1,5 @@
 Profile: PLBaseOrganizationPharmacy
-Parent: PLBaseOrganization
+Parent: Organization
 Id: pl-base-organization-pharmacy
 Title: "Organization: Pharmacy (PL)"
 Description: "Apteka"
@@ -9,3 +9,4 @@ Description: "Apteka"
 * identifier.system = $ids-pharmacy
 * identifier.value 1..1 MS
 * name 1..1 MS
+* contact.address only PLBaseAddress

@@ -15,5 +15,5 @@ Context: Composition
 * extension[nationalHealthFundDepartmentId].valueIdentifier.system = "urn:oid:2.16.840.1.113883.3.44.value[x]24.3.1"
 * extension[nationalHealthFundDepartmentId].valueIdentifier.value 1..1 MS
 * extension[ehicOrganizationId].value[x] only Identifier
-* extension[ehicOrganizationId]..valueIdentifier.system = "urn:oid:2.16.840.1.113883.3.4424.1.value[x]1.1.49"
+* extension[ehicOrganizationId].valueIdentifier.system = "urn:oid:2.16.840.1.113883.3.4424.1.value[x]1.1.49"
 * extension[ehicOrganizationId].valueIdentifier.value 1..1 MS

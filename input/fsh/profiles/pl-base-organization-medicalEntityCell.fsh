@@ -1,6 +1,6 @@
-Profile: PLBaseOrganizationMedicalEntityCell
-Parent: PLBaseOrganization
-Id: pl-base-organization-medicalentitycell
+Profile: PLBaseMedicalEntityCell
+Parent: Organization
+Id: pl-base-organization-medicalEntityCell
 Title: "Organization: Medical Entity Cell (PL)"
 Description: "Komórka organizacyjna podmiotu leczniczego"
 * ^version = "0.1.0"

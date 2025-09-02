@@ -31,6 +31,8 @@ Alias: $bcp-47 = urn:ietf:bcp:47
 Alias: $fhir-document-type = http://hl7.org/fhir/ValueSet/doc-typecodes
 Alias: $v3-confidentiality = http://terminology.hl7.org/CodeSystem/v3-Confidentiality
 Alias: $v3-actCode = http://terminology.hl7.org/CodeSystem/v3-ActCode
+Alias: $adm-gender = http://hl7.org/fhir/administrative-gender
+Alias: $relationship = http://terminology.hl7.org/CodeSystem/v2-0063
 
 // PL Terminology
 Alias: $icd-9-pl = urn:oid:2.16.840.1.113883.3.4424.11.2.6
