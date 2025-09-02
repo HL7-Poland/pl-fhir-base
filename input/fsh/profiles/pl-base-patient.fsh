@@ -5,7 +5,7 @@ Title: "Patient (PL)"
 Description: "Bazowy profil pacjenta"
 * ^version = "0.1.0"
 * extension contains 
-* PatientIdentifierOfMother named identifierOfMother 0..1 MS
+  PatientIdentifierOfMother named identifierOfMother 0..1 MS
 * identifier 1..
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"
