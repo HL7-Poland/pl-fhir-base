@@ -66,5 +66,5 @@ Description: "Dane nagłówka dokumentu medycznego"
 * event.detail.concept.coding ^slicing.ordered = false
 * event.detail.concept.coding contains 
     icd9PLCode 1..1 MS
-* event.detail.concept.coding[icd9PLCode] from PLServiceEventType
+* event.detail.concept.coding[icd9PLCode] from PLIcd9PLServiceCodeVS
 * event.detail.reference 0..0
