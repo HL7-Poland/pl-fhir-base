@@ -26,6 +26,6 @@ Description: "Author dokumentu medycznego"
 * organization 1..1 MS
 * organization only Reference(PLBaseMedicalPracticeServiceEntity) // or Reference(PLBaseOrganizationMedicalEntityUnit) or Reference(PLBaseOrganizationMedicalEntityCell) or Reference(PLBaseOrganizationPharmacy)
 * code 1..1 MS
-* code from PLPractitionerRoleVS
+* code from PLMedicalProfessionVS
 * specialty from PLPractitionerSpecialtyVS
 

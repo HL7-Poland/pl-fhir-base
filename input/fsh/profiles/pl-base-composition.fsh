@@ -16,7 +16,7 @@ Description: "Dane nagłówka dokumentu medycznego"
 * type 1..1 MS
 * type from $fhir-document-type
 * category 1..1 MS
-* category from PLP1DocumentClassTypeVS
+* category from PLP1DocumentTypeVS
 * subject 1..1 MS
 * subject only Reference(PLBasePatient)
 * encounter 1..1 MS

@@ -1,6 +1,6 @@
 Profile: PLBaseMedicalEntityUnit
 Parent: Organization
-Id: pl-base-medicalEntityUnit
+Id: pl-base-organization-medicalEntityUnit
 Title: "Organization: Medical Entity Unit (PL)"
 Description: "Jednostka organizacyjna podmiotu leczniczego"
 * ^version = "0.1.0"
