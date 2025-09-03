@@ -11,6 +11,6 @@ Description: "Określenie płci pacjenta dla celów administracyjnych"
 * $adm-gender#other "other"
   * ^designation[0].language = #pl-PL
   * ^designation[=].value = "Inna"
-* $adm-gender#unknown "unknow"
+* $adm-gender#unknown "unknown"
   * ^designation[0].language = #pl-PL
   * ^designation[=].value = "Nieznana"
