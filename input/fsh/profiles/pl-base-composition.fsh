@@ -4,7 +4,7 @@ Id: pl-base-composition
 Title: "Composition (PL)"
 Description: "Dane nagłówka dokumentu medycznego"
 * ^version = "0.1.0"
-* language from PLDocumentLanguage
+* language from PLDocumentLanguageVS
 * extension contains
     CompositionVersion named version 1..1 MS and
     CompositionInformationRecipient named informationRecipient 0..* MS and
@@ -16,7 +16,7 @@ Description: "Dane nagłówka dokumentu medycznego"
 * type 1..1 MS
 * type from $fhir-document-type
 * category 1..1 MS
-* category from PLP1DocumentClassType
+* category from PLP1DocumentClassTypeVS
 * subject 1..1 MS
 * subject only Reference(PLBasePatient)
 * encounter 1..1 MS

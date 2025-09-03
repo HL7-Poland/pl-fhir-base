@@ -28,6 +28,7 @@ Alias: $loinc = http://loinc.com
 Alias: $icd-10 = urn:oid:2.16.840.1.113883.6.3
 Alias: $radiology-playbook = http://fhir.loinc.org/ValueSet/loinc-rsna-radiology-playbook
 Alias: $bcp-47 = urn:ietf:bcp:47
+Alias: $ucum = http://unitsofmeasure.org
 Alias: $fhir-document-type = http://hl7.org/fhir/ValueSet/doc-typecodes
 Alias: $v3-confidentiality = http://terminology.hl7.org/CodeSystem/v3-Confidentiality
 Alias: $v3-actCode = http://terminology.hl7.org/CodeSystem/v3-ActCode

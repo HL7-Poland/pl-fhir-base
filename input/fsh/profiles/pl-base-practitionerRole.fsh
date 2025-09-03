@@ -25,8 +25,8 @@ Description: "Bazowy profil roli pracownika medycznego"
 * practitioner 0..1 MS
 * practitioner only Reference(PLBasePractitioner)
 * organization 0..1 MS
-* organization only Reference(PLBaseMedicalEntity) // or Reference(PLBaseMedicalEntityUnit) or Reference(PLBaseMedicalEntityCell) or Reference(PLBasePharmacy)
+* organization only Reference(PLBaseMedicalEntity or PLBaseMedicalEntityUnit or PLBaseMedicalEntityCell or PLBasePharmacy)
 * code 1..1 MS
-* code from PLPractitionerRole
-* specialty from PLPractitionerSpecialty
+* code from PLPractitionerRoleVS
+* specialty from PLPractitionerSpecialtyVS
 

@@ -1,4 +1,4 @@
-Profile: PLBaseOrganizationPharmacy
+Profile: PLBasePharmacy
 Parent: Organization
 Id: pl-base-organization-pharmacy
 Title: "Organization: Pharmacy (PL)"

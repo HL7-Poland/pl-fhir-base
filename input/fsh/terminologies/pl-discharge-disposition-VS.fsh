@@ -1,7 +1,7 @@
-ValueSet: PLDischargeDisposition
-Id: pl-discharge-disposition
-Title: "Discharge disposition code (PL)"
-Description: "Tryb wypisu ze szpitala"
+ValueSet: PLDischargeDispositionVS
+Id: pl-discharge-disposition-VS
+Title: "Tryb wypisu ze szpitala (PL)"
+Description: "Kod trybu wypisu ze szpitala"
 * $discharge-disposition#1 "zakończenie procesu terapeutycznego lub diagnostycznego"
 * $discharge-disposition#2 "skierowanie do dalszego leczenia w lecznictwie ambulatoryjnym"
 * $discharge-disposition#3 "skierowanie do dalszego leczenia w innym szpitalu"

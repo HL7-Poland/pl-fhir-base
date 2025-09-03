@@ -1,6 +1,6 @@
-ValueSet: PLPractitionerSpecialty
-Id: pl-practitioner-specialty
-Title: "Practitioner specialty (PL)"
+ValueSet: PLPractitionerSpecialtyVS
+Id: pl-practitioner-specialty-VS
+Title: "Specjalność lekarska (PL)"
 Description: "Specjalność lekarska"
 // TODO:Uzupełnienie elementów zbioru wartości
 //* $practitioner-specialty#

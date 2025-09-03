@@ -1,6 +1,6 @@
-ValueSet: PLPractitionerRole
-Id: pl-practitioner-role
-Title: "Practitioner role (PL)"
+ValueSet: PLPractitionerRoleVS
+Id: pl-practitionerRole-VS
+Title: "Zawód medyczny (PL)"
 Description: "Zawód medyczny"
 * $practitioner-role#LEK "Lekarz"
 * $practitioner-role##FEL "Felczer"
