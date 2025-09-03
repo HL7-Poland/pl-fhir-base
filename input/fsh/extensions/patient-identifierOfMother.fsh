@@ -1,6 +1,6 @@
 Extension: PatientIdentifierOfMother
 Id: patient-identifierOfMother
-Title: "Identyfikator noworodka (PL)"
+Title: "Patient: Identifier of mother (PL)"
 Description: "Identyfikator matki jako identyfikator noworodka"
 Context: Patient
 * extension ^slicing.discriminator.type = #value

@@ -1,7 +1,7 @@
 Extension: PractitionerRoleReimbursementContractIdentifier
 Id: practitionerrole-reimbursementcontractidentifier
 Title: "PractitionerRole: Reimbursement Contract Identifier"
-Description: "Identyfikator umowy związanej z refuncacją świadczeń medycznych"
+Description: "Identyfikator umowy związanej z refundacją świadczeń medycznych"
 Context: PractitionerRole
 * ^version = "0.1.0"
 * value[x] only Identifier

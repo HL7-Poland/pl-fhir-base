@@ -1,8 +1,17 @@
 ValueSet: PLAdministratievGender
 Id:	pl-administrativeGender
-Title: "Płeć (PL)"
-Description: "Określenie płci dla celow administracyjnych"
-* $adm-gender#male "Mężczyzna"
-* $adm-gender#female "Kobieta"
-* $adm-gender#other "Inna"
-* $adm-gender#unknown "Nieznana"
+Title: "Administrative gender (PL)"
+Description: "Określenie płci dla celów administracyjnych"
+* $adm-gender#male "male"
+  * ^designation[0].language = #pl-PL
+  * ^designation[=].value = "mężczyzna"
+* $adm-gender#female "female"
+  * ^designation[0].language = #pl-PL
+  * ^designation[=].value = "kobieta"
+* $adm-gender#other "other"
+  * ^designation[0].language = #pl-PL
+  * ^designation[=].value = "inna"
+* $adm-gender#unknown "unknow"
+  * ^designation[0].language = #pl-PL
+  * ^designation[=].value = "nieznana"
+
