@@ -1,6 +1,6 @@
-Profile: PLBaseLocationMedicalFacility
+Profile: PLBaseMedicalFacility
 Parent: Location
-Id: pl-base-location-medicalfacility
+Id: pl-base-location-medicalFacility
 Title: "Location: Medical Facility (PL)"
 Description: "Placówka medyczna/Miejsce udzielania świadczeń należące do określonego podmiotu medycznego"
 * ^version = "0.1.0"
@@ -19,4 +19,4 @@ Description: "Placówka medyczna/Miejsce udzielania świadczeń należące do ok
 * contact 1..*
 * contact.telecom 1..*
 * managingOrganization 1..1
-* managingOrganization only Reference(PLBaseMedicalEntity)
+* managingOrganization only Reference(PLBaseMedicalEntity or PLBaseMedicalEntityUnit or PLBaseMedicalEntityCell)

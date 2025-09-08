@@ -8,4 +8,5 @@ Description: "Bazowy profil podmiotu medycznego (świadczeniodawcy)"
 * identifier.system 1..1 MS
 * identifier.system = $ids-medicalEntity
 * identifier.value 1..1 MS
+* name 1..1
 * contact.address only PLBaseAddress

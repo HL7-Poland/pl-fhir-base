@@ -1,6 +1,6 @@
 Profile: PLBaseReferenceMedicalEntityUnit
 Parent: Reference
-Id: pl-base-reference-medicalentityunit
+Id: pl-base-reference-medicalEntityUnit
 Title: "Reference: Medical Entity Unit (PL)"
 Description: "Identyfikator jednostki organizacyjnej podmiotu leczeniczego"
 * ^version = "0.1.0"

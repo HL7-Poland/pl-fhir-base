@@ -1,6 +1,6 @@
 Profile: PLBaseReferenceMedicalPractice
 Parent: Reference
-Id: pl-base-reference-medicalpractice
+Id: pl-base-reference-medicalPractice
 Title: "Reference: Medical Practice (PL)"
 Description: "Identyfikator praktyki zawodowej nadany przez właściwą izbę lekarską lub izbę pielęgniarek i połonych"
 * ^version = "0.1.0"

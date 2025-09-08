@@ -6,4 +6,4 @@ Description: "Zlecający usługę medyczną"
 * ^version = "0.1.0"
 * practitioner 1..
 * practitioner only Reference(PLBasePractitioner)
-* location only Reference(PLBaseLocationMedicalFacility)
+* location only Reference(PLBaseMedicalFacility)
