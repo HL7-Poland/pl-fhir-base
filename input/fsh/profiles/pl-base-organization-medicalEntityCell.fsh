@@ -11,18 +11,6 @@ Description: "Komórka organizacyjna podmiotu leczniczego"
 * name 1..1 MS
 * contact 1..* MS
 * contact.telecom 1..* MS
-* contact.address 1..1 MS
-* partOf 1..1 MS
-* partOf only PLBaseReferenceMedicalEntityCompany
-// TODO: Medical entity company and unit references for portOf 
-// * partOf ^slicing.discriminator.type = #type
-// * partOf ^slicing.discriminator.path = "{$this}"
-// * partOf ^slicing.rules = #closed
-// * partOf ^slicing.description = "Identyfikator jednostki lub przedsiębiorstwa podmiotu leczeniczego"
-// * partOf ^slicing.ordered = false
-// * partOf contains
-//     medicalEntityUnitRef 0..1 MS and
-//     medicalEntityCompanyRef 1..1 MS 
-// * partOf[medicalEntityUnitRef] only PLBaseReferenceMedicalEntityUnit
-// * partOf[medicalEntityCompanyRef] only PLBaseReferenceMedicalEntityCompany 
+* contact.address 0..1 MS
+
 
