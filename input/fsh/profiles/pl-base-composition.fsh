@@ -15,19 +15,15 @@ Description: "Dane nagłówka dokumentu medycznego"
 * identifier.value 1..1 MS
 * type 1..1 MS
 * type from $fhir-document-type
-* category 1..1 MS
-* category from PLP1DocumentTypeVS
+* category from PLP1DocumentTypeVS //Usunąć - zrobić slicing na type
 * subject 1..1 MS
 * subject only Reference(PLBasePatient)
 * encounter 1..1 MS
-* encounter only Reference(PLBaseEncounter)
+* encounter only Reference(PLBaseActualEncounter)
 * date 1..1 MS
 * author 1..1 MS
 * author only Reference(PLBasePractitionerRoleDocumentAuthor)
 * title 1..1 MS
-//TODO: Composition R5 confidentiality workaround
-//* confidentiality 1..1 MS
-//* confidentiality from PLConfidentiality
 * attester 1..* MS
 * attester ^slicing.discriminator.type = #value
 * attester ^slicing.discriminator.path = "mode"
@@ -50,6 +46,8 @@ Description: "Dane nagłówka dokumentu medycznego"
 * custodian 1..1 MS
 * custodian only Reference(Organization)
 * relatesTo 0..1 MS
+// * relatesTo only relatedArtifact - dokończyć
+
 * relatesTo.extension contains
     CompositionVersion named version 1..1 MS
 // Composition R5 relatesTo workaround

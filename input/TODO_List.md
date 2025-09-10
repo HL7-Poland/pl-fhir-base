@@ -1,0 +1,11 @@
+- Referencja do dokumentu PIK HL7 CDA z uwzględnieniem metadanych XDS za P1 (jako bazowy profil dla zasobu DocumentReference)
+- Poprawić oidy dla kodu oddziału NFZ i identyfikator karty EKUZ (w rozszerzeniu payorIdentifier) >> Done
+- Sprawdzić, czy warto dodać inny atrybut (np. "use"?) do rozszerzenia identifierOfMother >> Nie. Done
+- Zrobić binding dla identifier.system w PractitionerRoleReimbursementContractIdentifier >> Done
+- Jak zapisac confidentialityCode w Composition? >> https://hl7.org/fhir/composition.html#cda >> Chyba trzeba wyprofilować Bundle dla dokumentu
+- type w DocumentReference i w Composition (slicing na LOINC i na P1) >> Done
+- type w PLBaseEncounter dodać slicing
+- basedOn w ActualEncounter dodać slicing na PLBaseServiceOrder i inne
+- dodać 2 slicingi w PLBaseDocument
+- 
+
