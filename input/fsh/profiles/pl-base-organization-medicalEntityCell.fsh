@@ -13,4 +13,3 @@ Description: "Komórka organizacyjna podmiotu leczniczego"
 * contact.telecom 1..* MS
 * contact.address 0..1 MS
 
-
