@@ -19,11 +19,9 @@ Description: "Usługa katalogowa"
 * code.coding contains
     loincCode 1..1 MS and
     icd9plCode 0..* MS
-* code.coding[loincCode] from LoincConceptVS
 * code.coding[loincCode].system 1..1 MS
 * code.coding[loincCode].system = $loinc
 * code.coding[loincCode].code 1..1 MS
-* code.coding[icd9plCode] from Icd9PLServiceCodeVS
 * code.coding[icd9plCode].system 1..1 MS
 * code.coding[icd9plCode].system = $icd-9-pl
 * code.coding[icd9plCode].code 1..1 MS
