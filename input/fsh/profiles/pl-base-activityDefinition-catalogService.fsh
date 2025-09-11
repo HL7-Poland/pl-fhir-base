@@ -17,7 +17,7 @@ Description: "Usługa katalogowa"
 * code.coding ^slicing.description = "Service type code choice"
 * code.coding ^slicing.ordered = false
 * code.coding contains
-    loincCode 1..1 MS and
+    loincCode 0..1 MS and
     icd9plCode 0..* MS
 * code.coding[loincCode].system 1..1 MS
 * code.coding[loincCode].system = $loinc
