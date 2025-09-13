@@ -1,5 +1,5 @@
 Extension: CompositionBasedOnOrder
-Id: composition-basedonorder
+Id: composition-basedOnOrder
 Title: "Composition: Based On Order"
 Description: "Zlecenie, w ramach ralizacji którego powstaje dokument"
 Context: Composition

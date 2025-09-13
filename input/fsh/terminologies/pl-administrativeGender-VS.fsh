@@ -1,4 +1,4 @@
-ValueSet: PLAdministratievGenderVS
+ValueSet: PLAdministrativeGenderVS
 Id:	pl-administrativeGender-VS
 Title: "Płeć pacjenta (AdministrativeGender)"
 Description: "Określenie płci pacjenta dla celów administracyjnych"

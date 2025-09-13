@@ -12,6 +12,7 @@ Alias: $ids-medicalEntity = urn:oid:2.16.840.1.113883.3.4424.2.3.1
 Alias: $ids-medicalEntityUnit = urn:oid:2.16.840.1.113883.3.4424.2.3.2
 Alias: $ids-medicalEntityCell = urn:oid:2.16.840.1.113883.3.4424.2.3.3
 Alias: $ids-pharmacy = urn:oid:2.16.840.1.113883.3.4424.2.6
+Alias: $payor-contract-pools = http://hl7.org.pl/fhir/CodeSystem/pl-payorContractPool-CS
 
 // UV Teritorial
 Alias: $iso3166-1-2 = http://hl7.org/fhir/ValueSet/iso3166-1-2
@@ -34,6 +35,7 @@ Alias: $v3-confidentiality = http://terminology.hl7.org/CodeSystem/v3-Confidenti
 Alias: $v3-actCode = http://terminology.hl7.org/CodeSystem/v3-ActCode
 Alias: $adm-gender = http://hl7.org/fhir/administrative-gender
 Alias: $relationship = http://terminology.hl7.org/CodeSystem/v2-0063
+Alias: $encounter-status = http://hl7.org/fhir/encounter-status
 
 // PL Terminology
 Alias: $icd-9-pl = urn:oid:2.16.840.1.113883.3.4424.11.2.6

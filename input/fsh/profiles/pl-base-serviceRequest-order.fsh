@@ -8,7 +8,7 @@ Description: "Zlecenie usługi medycznej"
 * intent = #order
 * code 1..1 MS
 * code.reference 0..1 MS
-* code.concept 0..1 MS // Tylko, jeśli nie ma code.reference
+* code.concept 0..1 MS
 * code.concept.coding ^slicing.discriminator.type = #value
 * code.concept.coding ^slicing.discriminator.path = "system"
 * code.concept.coding ^slicing.rules = #open
@@ -28,7 +28,7 @@ Description: "Zlecenie usługi medycznej"
 * code.concept.coding[icd9plCode].code 1..1 MS
 * code.concept.coding[icd9plCode].display 1..1 MS
 * subject only Reference(PLBasePatient)
-* encounter only Reference(PLBaseEncounter)
+* encounter only Reference(PLBaseActualEncounter)
 * authoredOn 1..1 MS
 * requester 1..1 MS
 * requester only Reference(PLBaseServiceRequester)

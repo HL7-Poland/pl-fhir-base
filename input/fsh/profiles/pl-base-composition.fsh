@@ -61,10 +61,10 @@ Description: "Dane nagłówka dokumentu medycznego"
 * custodian 1..1 MS
 * custodian only Reference(Organization)
 * relatesTo 0..* MS
-* relatesTo ^slicing.discriminator.type = #type
+* relatesTo ^slicing.discriminator.type = #vlaue
 * relatesTo ^slicing.discriminator.path = "type"
 * relatesTo ^slicing.rules = #open
-* relatesTo ^slicing.description = ""
+* relatesTo ^slicing.description = "Rodzaj dokumentu powiązanego"
 * relatesTo ^slicing.ordered = false
 * relatesTo contains
     documentPreviousVersion 0..1 MS
