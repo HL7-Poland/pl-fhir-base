@@ -59,8 +59,8 @@
   <description value="Profile zasobów FHIR zawierające zdefiniowane w specyfikacji reguły walidacyjne"/>
 </grouping>
 <grouping xmlns="http://hl7.org/fhir" id="-str-datatype">
-  <name value="Structures: Data Type Profiles"/>
-  <description value="These define constraints on FHIR data types for systems conforming to this implementation guide."/>
+  <name value="Struktury: Profile typów danych"/>
+  <description value="Profile typów danych FHIR zawierające zdefiniowane w specyfikacji reguły walidacyjne"/>
 </grouping>
 <grouping xmlns="http://hl7.org/fhir" id="-str-extension">
   <name value="Struktury: Definicje rozszerzeń"/>
