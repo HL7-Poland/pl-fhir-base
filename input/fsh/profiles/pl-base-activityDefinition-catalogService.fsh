@@ -3,6 +3,8 @@ Parent: ActivityDefinition
 Id: pl-base-activityDefinition-catalogService
 Title: "Usługa katalogowa (PL)"
 Description: "Usługa katalogowa"
+* extension contains
+  ActivityDefinitionResponsibleOrganization named responsibleOrganization 0..1 MS
 * url 1..1 MS
 * title 1..1 MS
 * status 1..1 MS
