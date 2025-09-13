@@ -4,7 +4,7 @@ Zrobione:
 - Poprawić oidy dla kodu oddziału NFZ i identyfikator karty EKUZ (w rozszerzeniu payorIdentifier) >> Done
 - Sprawdzić, czy warto dodać inny atrybut (np. "use"?) do rozszerzenia identifierOfMother >> Nie. Done
 - Zrobić binding dla identifier.system w PractitionerRoleReimbursementContractIdentifier >> Done
-- Jak zapisac confidentialityCode w Composition? >> Done
+- Jak zapisac confidentialityCode w Composition? >> Done, ale w PLBaseDocument
 - type w DocumentReference i w Composition (slicing na LOINC i na P1) >> Done
 - dodać 2 slicingi w PLBaseDocument >> Done
 
