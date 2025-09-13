@@ -14,12 +14,27 @@ Description: "Dane nagłówka dokumentu medycznego"
 * identifier.system 1..1 MS
 * identifier.value 1..1 MS
 * type 1..1 MS
-* type from $fhir-document-type
-* category from PLP1DocumentTypeVS //Usunąć - zrobić slicing na type
+* type.coding 1..* MS
+* type.coding ^slicing.discriminator.type = #value
+* type.coding ^slicing.discriminator.path = "system"
+* type.coding ^slicing.rules = #open
+* type.coding ^slicing.description = "Typ dokumentu medycznego"
+* type.coding ^slicing.ordered = false
+* type.coding contains
+    loincDocumentType 1..1 MS and
+    p1DocumentType 1..1 MS
+* type.coding[loincDocumentType].system 1..1 MS
+* type.coding[loincDocumentType].system = $loinc
+* type.coding[loincDocumentType].code 1..1 MS
+* type.coding[loincDocumentType].code from $fhir-document-type
+* type.coding[p1DocumentType].system 1..1 MS
+* type.coding[p1DocumentType].system = $p1-document-class
+* type.coding[p1DocumentType].code 1..1 MS
+* type.coding[p1DocumentType].code from PLP1DocumentTypeVS
 * subject 1..1 MS
 * subject only Reference(PLBasePatient)
 * encounter 1..1 MS
-* encounter only Reference(PLBaseActualEncounter)
+* encounter only Reference(PLBaseEncounter)
 * date 1..1 MS
 * author 1..1 MS
 * author only Reference(PLBasePractitionerRoleDocumentAuthor)
@@ -45,13 +60,19 @@ Description: "Dane nagłówka dokumentu medycznego"
 * attester[legalAuthenticator].party only Reference(PLBasePractitioner)
 * custodian 1..1 MS
 * custodian only Reference(Organization)
-* relatesTo 0..1 MS
-// * relatesTo only relatedArtifact - dokończyć
-
-* relatesTo.extension contains
-    CompositionVersion named version 1..1 MS
-// Composition R5 relatesTo workaround
-//* relatesTo.target[x] only Identifier
+* relatesTo 0..* MS
+* relatesTo ^slicing.discriminator.type = #vlaue
+* relatesTo ^slicing.discriminator.path = "type"
+* relatesTo ^slicing.rules = #open
+* relatesTo ^slicing.description = "Rodzaj dokumentu powiązanego"
+* relatesTo ^slicing.ordered = false
+* relatesTo contains
+    documentPreviousVersion 0..1 MS
+* relatesTo[documentPreviousVersion].type 1..1 MS
+* relatesTo[documentPreviousVersion].type =  #predecessor
+* relatesTo[documentPreviousVersion].resource 0..0
+* relatesTo[documentPreviousVersion].resourceReference 1..1 MS
+* relatesTo[documentPreviousVersion].resourceReference = Reference(PLBaseDocumentIdentity)
 * event 0..* MS
 * event.period 0..0
 * event.detail 1..1 MS
