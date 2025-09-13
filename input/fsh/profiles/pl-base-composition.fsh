@@ -34,10 +34,10 @@ Description: "Dane nagłówka dokumentu medycznego"
 * subject 1..1 MS
 * subject only Reference(PLBasePatient)
 * encounter 1..1 MS
-* encounter only Reference(PLBaseEncounter)
+* encounter only Reference(PLBaseActualEncounter)
 * date 1..1 MS
 * author 1..1 MS
-* author only Reference(PLBasePractitionerRoleDocumentAuthor)
+* author only Reference(PLBaseDocumentAuthor)
 * title 1..1 MS
 * attester 1..* MS
 * attester ^slicing.discriminator.type = #value
@@ -61,7 +61,7 @@ Description: "Dane nagłówka dokumentu medycznego"
 * custodian 1..1 MS
 * custodian only Reference(Organization)
 * relatesTo 0..* MS
-* relatesTo ^slicing.discriminator.type = #vlaue
+* relatesTo ^slicing.discriminator.type = #value
 * relatesTo ^slicing.discriminator.path = "type"
 * relatesTo ^slicing.rules = #open
 * relatesTo ^slicing.description = "Rodzaj dokumentu powiązanego"

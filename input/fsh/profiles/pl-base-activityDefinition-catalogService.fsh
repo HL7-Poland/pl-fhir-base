@@ -25,6 +25,5 @@ Description: "Usługa katalogowa"
 * code.coding[icd9plCode].system 1..1 MS
 * code.coding[icd9plCode].system = $icd-9-pl
 * code.coding[icd9plCode].code 1..1 MS
-* code.text 0..0
 * intent 1..1 MS
 * intent = #proposal

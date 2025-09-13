@@ -6,14 +6,6 @@ Description: "Bazowy profil pacjenta"
 * ^version = "0.1.0"
 * extension contains
   PatientIdentifierOfMother named identifierOfMother 0..1 MS
-* extension[identifierOfMother] ^slicing.discriminator.type = #value
-* extension[identifierOfMother] ^slicing.discriminator.path = "system"
-* extension[identifierOfMother] ^slicing.rules = #open
-* extension[identifierOfMother] ^slicing.description = "Identyfikator matki noworodka"
-* extension[identifierOfMother] ^slicing.ordered = false
-* extension[identifierOfMother] contains
-  pesel 0..1 MS
-* extension[identifierOfMother][pesel].valueIdentifier.system = $ids-pesel
 * identifier 1..
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"
@@ -46,7 +38,7 @@ Description: "Bazowy profil pacjenta"
 * name[unknown].extension.valueCode = #unknown
 * name[known].given 1..2
 * name[known].family 1..1
-* address only PLBaseAddress
+* address only PLBaseAddressEu
 * multipleBirth[x] only integer
 
 // TODO:

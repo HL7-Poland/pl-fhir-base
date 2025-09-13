@@ -1,6 +1,6 @@
-Profile: PLBaseAddress
+Profile: PLBaseAddressEu
 Parent: Address
-Id: pl-base-address
+Id: pl-base-address-eu
 Title: "Address (PL)"
 Description: "Bazowy adres"
 * ^version = "0.1.0"

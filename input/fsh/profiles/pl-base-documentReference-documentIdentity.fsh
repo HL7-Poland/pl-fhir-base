@@ -1,7 +1,7 @@
 Profile: PLBaseDocumentIdentity
 Parent: DocumentReference
 Id: pl-base-documentIdentity
-Title: "Identifikator i wersja dokumentu"
+Title: "Identyfikator i wersja dokumentu"
 Description: "Dane identyfikacyjne dokumentu medycznego w postaci unikalnego identyfikatora i wersji"
 * identifier 1..* MS
 * identifier.system 1..1 MS

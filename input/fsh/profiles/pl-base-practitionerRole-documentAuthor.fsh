@@ -1,4 +1,4 @@
-Profile: PLBasePractitionerRoleDocumentAuthor
+Profile: PLBaseDocumentAuthor
 Parent: PractitionerRole
 Id: pl-base-practitionerRole-documentAuthor
 Title: "PractitionerRole: Author (PL)"
@@ -24,7 +24,7 @@ Description: "Author dokumentu medycznego"
 * practitioner 1..1 MS
 * practitioner only Reference(PLBasePractitioner)
 * organization 1..1 MS
-* organization only Reference(PLBaseMedicalPracticeServiceEntity) // or Reference(PLBaseOrganizationMedicalEntityUnit) or Reference(PLBaseOrganizationMedicalEntityCell) or Reference(PLBaseOrganizationPharmacy)
+* organization only Reference(PLBaseMedicalPractice or PLBaseMedicalEntity or PLBaseMedicalEntityUnit or PLBaseMedicalEntityCell or PLBasePharmacy)
 * code 1..1 MS
 * code from PLMedicalProfessionVS
 * specialty from PLPractitionerSpecialtyVS

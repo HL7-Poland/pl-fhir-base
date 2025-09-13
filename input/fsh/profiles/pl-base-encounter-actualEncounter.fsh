@@ -9,14 +9,14 @@ Description: "Bazowy profil wizyty lub pobytu"
 * type from PLMedicalEntityCellTypeVS
 * subject 1..1 MS
 * subject only Reference(PLBasePatient)
-// * basedOn ^slicing.discriminator.type = #value
-// * basedOn ^slicing.discriminator.path = "???"
-// * basedOn ^slicing.rules = #open
-// * basedOn ^slicing.description = "PLBaseServiceOrder"
-// * basedOn ^slicing.ordered = false
-// * basedOn contains
-//     serviceOrder 0..* MS
-// * basedOn[serviceOrder] only Reference(PLBaseServiceOrder)
+* basedOn ^slicing.discriminator.type = #value
+* basedOn ^slicing.discriminator.path = "profile"
+* basedOn ^slicing.rules = #open
+* basedOn ^slicing.description = "PLBaseServiceOrder"
+* basedOn ^slicing.ordered = false
+* basedOn contains
+    serviceOrder 0..* MS
+* basedOn[serviceOrder] only Reference(PLBaseServiceOrder)
 * partOf only Reference(PLBaseActualEncounter)
 * serviceProvider only Reference(PLBaseMedicalEntity or PLBaseMedicalEntityUnit or PLBaseMedicalEntityCell)
 * actualPeriod 1..1 MS
