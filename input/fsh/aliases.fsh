@@ -12,7 +12,8 @@ Alias: $ids-medicalEntity = urn:oid:2.16.840.1.113883.3.4424.2.3.1
 Alias: $ids-medicalEntityUnit = urn:oid:2.16.840.1.113883.3.4424.2.3.2
 Alias: $ids-medicalEntityCell = urn:oid:2.16.840.1.113883.3.4424.2.3.3
 Alias: $ids-pharmacy = urn:oid:2.16.840.1.113883.3.4424.2.6
-Alias: $payor-contract-pools = http://hl7.org.pl/fhir/CodeSystem/pl-payorContractPool-CS
+Alias: $reimb-contract-pools = http://hl7.org.pl/fhir/CodeSystem/pl-reimbursementContractIdentifierPool-CS
+Alias: $practice-identifier-pools = http://hl7.org.pl/fhir/CodeSystem/pl-medicalPracticetIdentifierPool-CS
 
 // UV Teritorial
 Alias: $iso3166-1-2 = http://hl7.org/fhir/ValueSet/iso3166-1-2

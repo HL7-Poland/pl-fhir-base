@@ -1,7 +1,7 @@
-CodeSystem: PLPayorContractPoolCS
-Id: pl-payorContractPool-CS
-Title: "Pule numerów umów na refundację świadczeń medycznych (PL)"
-Description: "Pule numerów umów na refundację świadczeń medycznych"
+CodeSystem: PLReimbursementContractIdentifierPoolCS
+Id: pl-reimbursementContractIdentifierPool-CS
+Title: "Pule numerów umów związanych z refundacją świadczeń medycznych (PL)"
+Description: "Pule numerów umów związanych z refundacją świadczeń medycznych"
 * #urn:oid:2.16.840.1.113883.3.4424.8.6.1.1
 * #urn:oid:2.16.840.1.113883.3.4424.8.6.1.2
 * #urn:oid:2.16.840.1.113883.3.4424.8.6.1.3
