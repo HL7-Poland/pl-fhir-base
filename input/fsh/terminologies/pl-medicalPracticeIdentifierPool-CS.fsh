@@ -2,6 +2,7 @@ CodeSystem: PLMedicalPracticeIdentifierPoolCS
 Id: pl-medicalPracticetIdentifierPool-CS
 Title: "Pule identyfikatorów praktyk zawodowych (PL)"
 Description: "Pule identyfikatorów praktyk zawodowych nadawanych przez izby zawodowe"
+* ^url = "http://hl7.org.pl/fhir/CodeSystem/pl-medicalPracticetIdentifierPool-CS"
 * #urn:oid:2.16.840.1.113883.3.4424.2.4.50
 * #urn:oid:2.16.840.1.113883.3.4424.2.4.51
 * #urn:oid:2.16.840.1.113883.3.4424.2.4.52

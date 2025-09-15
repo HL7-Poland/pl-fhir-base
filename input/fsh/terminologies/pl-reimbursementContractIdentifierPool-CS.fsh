@@ -2,6 +2,7 @@ CodeSystem: PLReimbursementContractIdentifierPoolCS
 Id: pl-reimbursementContractIdentifierPool-CS
 Title: "Pule numerów umów związanych z refundacją świadczeń medycznych (PL)"
 Description: "Pule numerów umów związanych z refundacją świadczeń medycznych"
+* ^url = "http://hl7.org.pl/fhir/CodeSystem/pl-reimbursementContractIdentifierPool-CS"
 * #urn:oid:2.16.840.1.113883.3.4424.8.6.1.1
 * #urn:oid:2.16.840.1.113883.3.4424.8.6.1.2
 * #urn:oid:2.16.840.1.113883.3.4424.8.6.1.3

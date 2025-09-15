@@ -1,0 +1,15 @@
+CodeSystem: PLDischargeDispositionCS
+Id: pl-discharge-disposition-CS
+Title: "Tryb wypisu ze szpitala (PL)"
+Description: "Kod trybu wypisu ze szpitala"
+* ^url = "http://hl7.org.pl/fhir/CodeSystem/pl-discharge-disposition-CS"
+* #1 "zakończenie procesu terapeutycznego lub diagnostycznego"
+* #2 "skierowanie do dalszego leczenia w lecznictwie ambulatoryjnym"
+* #3 "skierowanie do dalszego leczenia w innym szpitalu"
+* #4 "skierowanie do dalszego leczenia w innym niż szpital, zakładzie opieki stacjonarnej"
+* #6 "wypisanie na własne żądanie"
+* #7 "osoba leczona samowolnie opuściła zakład opieki stacjonarnej przed zakończeniem procesu terapeutycznego lub diagnostycznego"
+* #8 "wypisanie na podstawie art. 22 ust. 1 pkt 3 ustawy o zakładach opieki zdrowotnej"
+* #9 "zgon pacjenta"
+* #10 "osoba leczona, przyjęta w trybie oznaczonym kodem „9” lub „10”, która samowolnie opuściła podmiot leczniczy"
+* #11 "wypisanie na podstawie art. 46 albo 47 ustawy z dnia 22 listopada 2013 r."
