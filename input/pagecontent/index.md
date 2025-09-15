@@ -1,3 +1,3 @@
-# Page under construction
+Polska specyfikacja bazowa standardu HL7 FHIR (HL7 FHIR PL Base) została opracowana przez [Polskie Stowarzyszenie HL7](https://hl7.org.pl), które jest oficjalną krajową organizacją [HL7 International](https://hl7.org). Specyfikacja ma charakter roboczy i została udostępniona do konsultacji.
 
-The official publication is planned for 15 Sep 2025.
+Specyfikacja zawiera bazowe reguły wymiany danych pomiędzy systemami stosowanymi w polskiej ochronie zdrowia. W skład specyfikacji wchodzą definicje struktur wymienianych obiektów danych (w postaci profili zasobów FHIR, profili typów danych i definicji rozszerzeń) oraz definicje zbiorów wartości słownikowych i definicje słowników własnych. Zawarte w specyfikacji reguły wymiany danych są oparte na regułach określonych w Polskiej Implementacji Krajowej standardu HL7 CDA (PIK HL7 CDA) oraz są wstępnie zharmonizowane ze powstającymi specyfikacjami europejskimi (EEHRxF) standardu HL7 FHIR, które będą podstawą wymiany danych w ramach Europejskiej Przestrzeni Danych o Zdrowiu (EHDS).

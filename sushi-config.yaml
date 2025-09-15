@@ -39,9 +39,9 @@ publisher:
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
 #
-# pages:
-#   index.md:
-#     title: Example Home
+pages:
+  index.md:
+    title: Wprowadzenie
 #   implementation.xml:
 #   examples.xml:
 #     title: Examples Overview
