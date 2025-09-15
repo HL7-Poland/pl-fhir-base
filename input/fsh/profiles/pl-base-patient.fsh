@@ -16,6 +16,7 @@ Description: "Bazowy profil pacjenta"
   pesel 0..1 MS
 * identifier[pesel].system = $ids-pesel
 * identifier[pesel].value 1..1 MS
+* identifier[pesel].value obeys PeselIdentifier
 * name 1..1 MS
 * name ^slicing.discriminator.type = #value
 * name ^slicing.discriminator.path = "use"
@@ -43,4 +44,3 @@ Description: "Bazowy profil pacjenta"
 
 // TODO:
 // identifier[pesel].value dodać wymaganie 11 cyfr za pomocą FHIRPath
-// Warning jeśli identyfikator jest z puli "nadrzędnej", (4424.1.1, 4424.1.2 4424.1.3 4424.1.5)
