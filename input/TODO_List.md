@@ -15,9 +15,6 @@ Zrobione:
 - W PLBaseCatalogService dodać wymaganie intent = #proposal (i usunąć intent 0..0 w ssidl-ig) >> Done
 - Rozszerzenie ActivityDefinitionResponsibleOrganization w PLBaseCatalogService >> Done
 - W PLBaseReferenceMedicalPractice zrobić valueSet dla identifier (zamiast choice'a) >> Done
+- identifier[pesel].value dodać wymaganie 11 cyfr za pomocą FHIRPath >> Done
 
-W PLBasePatient:
-// identifier[pesel].value dodać wymaganie 11 cyfr za pomocą FHIRPath
-// Warning jeśli identyfikator jest z puli "nadrzędnej", (4424.1.1, 4424.1.2 4424.1.3 4424.1.5)
-
-
+W PLBaseMedicalFacility dodać slicing na identyfikator miejsca udzielania świadczeń (urn:oid:2.16.840.1.113883.3.4424.2.4.50.1)

@@ -7,3 +7,4 @@ Description: "Podmiot udzielania świadczeń w ramach praktyki zawodowej"
 * identifier 1..1 MS
 * identifier.system from PLMedicalPracticeIdentifierPoolVS
 * identifier.value 1..1 MS
+* name 1..1 MS

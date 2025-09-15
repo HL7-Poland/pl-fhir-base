@@ -12,4 +12,6 @@ Description: "Jednostka organizacyjna podmiotu leczniczego"
 * contact 1..* MS
 * contact.telecom 1..* MS
 * contact.address 1..1 MS
+* partOf 1..1 MS
+* partOf only PLBaseMedicalEntityIdentity or Reference(PLBaseMedicalEntity)
 
