@@ -1,8 +1,8 @@
 CodeSystem: PLDischargeDispositionCS
-Id: pl-discharge-disposition-CS
+Id: pl-dischargeDisposition-CS
 Title: "Tryb wypisu ze szpitala (PL)"
 Description: "Kod trybu wypisu ze szpitala"
-* ^url = "http://hl7.org.pl/fhir/CodeSystem/pl-discharge-disposition-CS"
+* ^url = "http://hl7.org.pl/fhir/CodeSystem/pl-dischargeDisposition-CS"
 * #1 "zakończenie procesu terapeutycznego lub diagnostycznego"
 * #2 "skierowanie do dalszego leczenia w lecznictwie ambulatoryjnym"
 * #3 "skierowanie do dalszego leczenia w innym szpitalu"

@@ -1,8 +1,8 @@
 CodeSystem: PLPractitionerSpecialtyCS
-Id: pl-practitioner-specialty-CS
+Id: pl-practitionerSpecialty-CS
 Title: "Specjalność lekarska (PL)"
 Description: "Specjalność lekarska"
-* ^url = "http://hl7.org.pl/fhir/CodeSystem/pl-practitioner-specialty-CS"
+* ^url = "http://hl7.org.pl/fhir/CodeSystem/pl-practitionerSpecialty-CS"
 * #0731 "alergologia"
 * #0701 "anestezjologia i intensywna terapia"
 * #0732 "angiologia"

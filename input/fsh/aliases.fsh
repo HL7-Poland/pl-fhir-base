@@ -43,8 +43,8 @@ Alias: $org-cell-type = http://hl7.org.pl/fhir/CodeSystem/pl-medicalEntityCellTy
 Alias: $mri-fieldStrength = http://hl7.org.pl/fhir/CodeSystem/pl-imaging-mriScannerFieldStrength-cs
 Alias: $p1-document-class = http://hl7.org.pl/fhir/CodeSystem/pl-p1DocumentType-CS
 Alias: $medical-profession = http://hl7.org.pl/fhir/CodeSystem/pl-medicalProfession-CS
-Alias: $practitioner-specialty = http://hl7.org.pl/fhir/CodeSystem/pl-practitioner-specialty-CS
-Alias: $discharge-disposition = http://hl7.org.pl/fhir/CodeSystem/pl-discharge-disposition-CS
+Alias: $practitioner-specialty = http://hl7.org.pl/fhir/CodeSystem/pl-practitionerSpecialty-CS
+Alias: $discharge-disposition = http://hl7.org.pl/fhir/CodeSystem/pl-dischargeDisposition-CS
 
 // Extensions
 Alias: $iso21090-ADXP-houseNumber = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber
