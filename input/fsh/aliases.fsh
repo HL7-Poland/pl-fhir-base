@@ -27,7 +27,6 @@ Alias: $ids-simc = http://hl7.org.pl/fhir/NamingSystem/teryt-simc
 // UV Terminology
 Alias: $sct = http://snomed.info/sct
 Alias: $loinc = http://loinc.com
-Alias: $icd-10 = urn:oid:2.16.840.1.113883.6.3
 Alias: $radiology-playbook = http://fhir.loinc.org/ValueSet/loinc-rsna-radiology-playbook
 Alias: $bcp-47 = urn:ietf:bcp:47
 Alias: $ucum = http://unitsofmeasure.org
@@ -38,13 +37,14 @@ Alias: $adm-gender = http://hl7.org/fhir/administrative-gender
 Alias: $encounter-status = http://hl7.org/fhir/encounter-status
 
 // PL Terminology
-Alias: $icd-9-pl = urn:oid:2.16.840.1.113883.3.4424.11.2.6
-Alias: $org-cell-type = urn:oid:2.16.840.1.113883.3.4424.11.2.4
+Alias: $icd-10 = http://hl7.org.pl/fhir/CodeSystem/pl-icd10Condition-CS
+Alias: $icd-9-pl = http://hl7.org.pl/fhir/CodeSystem/pl-icd9plServiceCode-CS
+Alias: $org-cell-type = http://hl7.org.pl/fhir/CodeSystem/pl-medicalEntityCellType-CS
 Alias: $mri-fieldStrength = http://hl7.org.pl/fhir/CodeSystem/pl-imaging-mriScannerFieldStrength-cs
-Alias: $p1-document-class = urn:oid:2.16.840.1.113883.3.4424.11.1.32
-Alias: $medical-profession = urn:oid:2.16.840.1.113883.3.4424.11.3.18
-Alias: $practitioner-specialty = urn:oid:2.16.840.1.113883.3.4424.11.3.3
-Alias: $discharge-disposition = urn:oid:2.16.840.1.113883.3.4424.11.3.21
+Alias: $p1-document-class = http://hl7.org.pl/fhir/CodeSystem/pl-p1DocumentType-CS
+Alias: $medical-profession = http://hl7.org.pl/fhir/CodeSystem/pl-medicalProfession-CS
+Alias: $practitioner-specialty = http://hl7.org.pl/fhir/CodeSystem/pl-practitioner-specialty-CS
+Alias: $discharge-disposition = http://hl7.org.pl/fhir/CodeSystem/pl-discharge-disposition-CS
 
 // Extensions
 Alias: $iso21090-ADXP-houseNumber = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber
