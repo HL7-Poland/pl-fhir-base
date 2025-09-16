@@ -1,8 +1,8 @@
 Profile: PLBaseMedicalEntity
 Parent: Organization
 Id: pl-base-organization-medicalEntity
-Title: "Organization: MedicalEntity (PL)"
-Description: "Bazowy profil podmiotu medycznego (świadczeniodawcy)"
+Title: "Organization: Podmiot medyczny"
+Description: "Podmiot medyczny (świadczeniodawca)"
 * ^version = "0.1.0"
 * identifier 1..1 MS
 * identifier.system 1..1 MS

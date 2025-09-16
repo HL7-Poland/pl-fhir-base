@@ -1,7 +1,7 @@
 Profile: PLBasePharmacy
 Parent: Organization
 Id: pl-base-organization-pharmacy
-Title: "Organization: Pharmacy (PL)"
+Title: "Organization: Apteka"
 Description: "Apteka"
 * ^version = "0.1.0"
 * identifier 1..1 MS

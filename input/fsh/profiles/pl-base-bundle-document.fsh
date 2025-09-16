@@ -1,7 +1,7 @@
 Profile: PLBaseDocument
 Parent: Bundle
 Id: pl-base-bundle-document
-Title: "Bundle: document (PL)"
+Title: "Bundle: Dokument medyczny"
 Description: "Dokument medyczny"
 * meta 1..1 MS
 * meta.security 1..* MS

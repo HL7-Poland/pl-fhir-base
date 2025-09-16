@@ -1,7 +1,7 @@
 Profile: PLBasePlannedEncounter
 Parent: Encounter
 Id: pl-base-plannedEncounter
-Title: "Encounter (PL)"
+Title: "Encounter: Planowana wizyta/pobyt"
 Description: "Bazowy profil planowanej wizyty lub pobytu"
 * ^version = "0.1.0"
 * status from PLPlannedEncounterStatusVS

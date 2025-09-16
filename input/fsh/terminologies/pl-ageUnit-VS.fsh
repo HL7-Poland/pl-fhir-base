@@ -14,9 +14,3 @@ Description: "Kody jednostek wieku oparte na słowniku UCUM"
 * $ucum#d "day"
   * ^designation[0].language = #pl-PL
   * ^designation[=].value = "dzień(dni)"
-* $ucum#h "hour"
-  * ^designation[0].language = #pl-PL
-  * ^designation[=].value = "godzina(godzin)"
-* $ucum#min "minute"
-  * ^designation[0].language = #pl-PL
-  * ^designation[=].value = "minuta(minut)"

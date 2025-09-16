@@ -1,7 +1,7 @@
 Profile: PLBaseActualEncounter
 Parent: Encounter
 Id: pl-base-actualEncounter
-Title: "Encounter (PL)"
+Title: "Encounter: Wizyta/pobyt"
 Description: "Bazowy profil wizyty lub pobytu"
 * ^version = "0.1.0"
 * status from PLActualEncounterStatusVS

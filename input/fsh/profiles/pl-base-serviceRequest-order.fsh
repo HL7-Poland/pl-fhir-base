@@ -1,7 +1,7 @@
 Profile: PLBaseServiceOrder
 Parent: ServiceRequest
 Id: pl-base-serviceRequest-order
-Title: "Service Request: Order (PL)"
+Title: "Service Request: Zlecenie usługi"
 Description: "Zlecenie usługi medycznej"
 * ^version = "0.1.0"
 * identifier 1..* MS

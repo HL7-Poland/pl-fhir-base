@@ -1,5 +1,5 @@
-Extension: MedicalEntityCompanyIdentity
-Id: organization-medicalEntityCompanyIdentity
+Extension: MedicalEntityCompanyIdentifier
+Id: organization-medicalEntityCompanyIdentifier
 Title: "Organization: Medical Entity Company Identifier"
 Description: "Identyfikator przedsiębiorstwa podmiotu leczniczego (REGON)"
 Context: Organization

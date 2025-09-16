@@ -1,7 +1,7 @@
 Profile: PLBaseServiceCatalog
 Parent: HealthcareService
 Id: pl-base-healthcareService-serviceCatalog
-Title: "HealthcareService: Service Catalog (PL)"
+Title: "HealthcareService: Katalog usług"
 Description: "Katalog usług medycznych"
 * ^version = "0.1.0"
 * extension contains

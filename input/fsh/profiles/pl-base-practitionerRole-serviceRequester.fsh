@@ -1,7 +1,7 @@
 Profile: PLBaseServiceRequester
 Parent: PractitionerRole
 Id: pl-base-practitionerRole-serviceRequester
-Title: "PractitionerRole: Service Requester (PL)"
+Title: "PractitionerRole: Zlecający usługę"
 Description: "Zlecający usługę medyczną"
 * ^version = "0.1.0"
 * extension contains 

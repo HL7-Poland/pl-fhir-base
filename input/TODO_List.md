@@ -18,3 +18,5 @@ Zrobione:
 - identifier[pesel].value dodać wymaganie 11 cyfr za pomocą FHIRPath >> Done
 
 W PLBaseMedicalFacility dodać slicing na identyfikator miejsca udzielania świadczeń (urn:oid:2.16.840.1.113883.3.4424.2.4.50.1)
+W profilu dla Cell i dla Unit - partOf only PLBaseMedicalEntityIdentity or Reference(PLBaseMedicalEntity)
+Rozszerzenie w Cell - only PLBaseMedicalEntityIdentity or Reference(PLBaseMedicalEntity)

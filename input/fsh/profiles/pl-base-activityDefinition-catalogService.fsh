@@ -1,7 +1,7 @@
 Profile: PLBaseCatalogService
 Parent: ActivityDefinition
 Id: pl-base-activityDefinition-catalogService
-Title: "Usługa katalogowa (PL)"
+Title: "ActivityDefinition: Usługa katalogowa"
 Description: "Usługa katalogowa"
 * extension contains
   ActivityDefinitionResponsibleOrganization named responsibleOrganization 0..1 MS

@@ -1,7 +1,7 @@
 Profile: PLBaseInformationRecipient
 Parent: PractitionerRole
 Id: pl-base-practitioneRole-informationRecipient
-Title: "PractitionerRole: Information Recipient (PL)"
+Title: "PractitionerRole: Odbiorca informacji"
 Description: "Odbiorca informacji przekazywanej w dokumencie medycznym"
 * ^version = "0.1.0"
 * identifier 1..* MS

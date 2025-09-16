@@ -1,7 +1,7 @@
 Profile: PLBaseCdaDocumentMetadata
 Parent: DocumentReference
 Id: pl-base-cdaDocumentMetadata
-Title: "Metadane dokumentu medycznego HL7 CDA"
+Title: "DocumentReference: Metadane dokumentu medycznego HL7 CDA"
 Description: "Metadane dokumentu medycznego w standardzie HL7 CDA"
 * identifier 1..* MS
 * identifier.system 1..1 MS

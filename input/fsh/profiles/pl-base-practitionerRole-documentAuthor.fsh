@@ -1,8 +1,8 @@
 Profile: PLBaseDocumentAuthor
 Parent: PractitionerRole
 Id: pl-base-practitionerRole-documentAuthor
-Title: "PractitionerRole: Author (PL)"
-Description: "Author dokumentu medycznego"
+Title: "PractitionerRole: Autor dokumentu"
+Description: "Autor dokumentu medycznego"
 * ^version = "0.1.0"
 * extension contains 
   PractitionerRoleReimbursementContractIdentifier named reimbursementContractIdentifier 0..1 MS

@@ -1,8 +1,8 @@
 Profile: PLBaseComposition
 Parent: Composition
 Id: pl-base-composition
-Title: "Composition (PL)"
-Description: "Dane nagłówka dokumentu medycznego"
+Title: "Composition: Nagłówek dokumentu medycznego"
+Description: "Dane nagłówkowe dokumentu medycznego"
 * ^version = "0.1.0"
 * language from PLDocumentLanguageVS
 * extension contains

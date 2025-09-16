@@ -1,7 +1,7 @@
 Profile: PLBaseDiagnosis
 Parent: Condition
 Id: pl-base-condition-diagnosis
-Title: "Condition: diagnosis (PL)"
+Title: "Condition: Rozpoznanie"
 Description: "Rozpoznanie"
 * ^version = "0.1.0"
 * category = #encounter-diagnosis

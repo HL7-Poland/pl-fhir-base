@@ -1,8 +1,8 @@
 Profile: PLBasePatient
 Parent: Patient
 Id: pl-base-patient
-Title: "Patient (PL)"
-Description: "Bazowy profil pacjenta"
+Title: "Patient: Pacjent"
+Description: "Dane pacjenta"
 * ^version = "0.1.0"
 * extension contains
   PatientIdentifierOfMother named identifierOfMother 0..1 MS
