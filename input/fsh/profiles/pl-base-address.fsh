@@ -2,7 +2,7 @@ Profile: PLBaseAddressEu
 Parent: Address
 Id: pl-base-address-eu
 Title: "Address: Adres"
-Description: "Adres w EU z polskimi rozszerzeniami"
+Description: "Struktura adresu w Unii Europejskiej z uwzględnieniem polskich rozszerzeń"
 * ^version = "0.1.0"
 * extension contains
     Teryt named teryt 0..1

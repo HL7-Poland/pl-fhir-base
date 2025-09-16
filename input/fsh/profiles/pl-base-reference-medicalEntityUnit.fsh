@@ -2,7 +2,7 @@ Profile: PLBaseReferenceMedicalEntityUnit
 Parent: Reference
 Id: pl-base-reference-medicalEntityUnit
 Title: "Reference: Identyfikator jednostki organizacyjnej"
-Description: "Identyfikator jednostki organizacyjnej podmiotu leczeniczego"
+Description: "Identyfikator jednostki organizacyjnej podmiotu leczniczego (wg RPWDL)"
 * ^version = "0.1.0"
 * reference 0..0
 * type 0..0

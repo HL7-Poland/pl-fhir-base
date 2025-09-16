@@ -2,7 +2,7 @@ Profile: PLBaseDocument
 Parent: Bundle
 Id: pl-base-bundle-document
 Title: "Bundle: Dokument medyczny"
-Description: "Dokument medyczny"
+Description: "Dokument medyczny w standardzie HL7 FHIR"
 * meta 1..1 MS
 * meta.security 1..* MS
 * meta.security ^slicing.discriminator.type = #value

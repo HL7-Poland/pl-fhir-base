@@ -2,7 +2,7 @@ Profile: PLBaseCatalogService
 Parent: ActivityDefinition
 Id: pl-base-activityDefinition-catalogService
 Title: "ActivityDefinition: Usługa katalogowa"
-Description: "Usługa katalogowa"
+Description: "Definicja usługi katalogowej podmiotu medycznego"
 * extension contains
   ActivityDefinitionResponsibleOrganization named responsibleOrganization 0..1 MS
 * url 1..1 MS

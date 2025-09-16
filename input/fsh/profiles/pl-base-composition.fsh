@@ -2,7 +2,7 @@ Profile: PLBaseComposition
 Parent: Composition
 Id: pl-base-composition
 Title: "Composition: Nagłówek dokumentu medycznego"
-Description: "Dane nagłówkowe dokumentu medycznego"
+Description: "Dane nagłówkowe dokumentu medycznego w standardzie HL7 FHIR"
 * ^version = "0.1.0"
 * language from PLDocumentLanguageVS
 * extension contains

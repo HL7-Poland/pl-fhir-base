@@ -2,7 +2,7 @@ Profile: PLBasePractitioner
 Parent: Practitioner
 Id: pl-base-practitioner
 Title: "Practitioner: Pracownik medyczny"
-Description: "Bazowy profil pracownika medycznego"
+Description: "Dane pracownika medycznego"
 // Dodać regułę FHIRPath sprawdzającą spójność identifier i qualification.identifier
 * ^version = "0.1.0"
 * identifier 1..* MS
