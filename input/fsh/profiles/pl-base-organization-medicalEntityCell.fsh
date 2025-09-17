@@ -16,5 +16,11 @@ Description: "Komórka organizacyjna podmiotu leczniczego (wg RPWDL)"
 * contact.telecom 1..* MS
 * contact.address 0..1 MS
 * partOf 1..1 MS
-* partOf only PLBaseMedicalEntityIdentity or Reference(PLBaseMedicalEntity)
+* partOf only Reference(PLBaseMedicalEntity)
+* partOf.reference 0..1 MS
+* partOf.identifier 0..1 MS
+* partOf.identifier.system 1..1 MS
+* partOf.identifier.system = $ids-medicalEntity
+* partOf.identifier.value 1..1 MS
+
 
