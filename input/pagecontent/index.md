@@ -5,6 +5,7 @@ Specyfikacja zawiera bazowe reguły wymiany danych pomiędzy systemami stosowany
 Proponowane kolejne kroki:
 - powołanie grupy roboczej i zaplanowanie harmonogramu dalszych prac
 - harmonizacja specyfikacji ze specyfikacjami europejskimi
+- uruchomienie serwera terminologii dla polskich bazowych słowników i zbiorów wartości 
 - inwentaryzacja istniejących polskich specyfikacji FHIR
 - przygotowanie publikacji specyfikacji dla domeny diagnostyki laboratoryjnej (PL Lab)
 - przygotowanie publikacji specyfikacji dla domeny diagnostyki obrazowej (PL Imaging)
