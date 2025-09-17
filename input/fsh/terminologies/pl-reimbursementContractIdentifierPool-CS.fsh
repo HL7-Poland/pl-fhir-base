@@ -3,51 +3,51 @@ Id: pl-reimbursementContractIdentifierPool-CS
 Title: "Pule numerów umów związanych z refundacją świadczeń medycznych (PL)"
 Description: "Pule numerów umów związanych z refundacją świadczeń medycznych"
 * ^url = "http://hl7.org.pl/fhir/CodeSystem/pl-reimbursementContractIdentifierPool-CS"
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.1
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.2
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.3
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.4
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.5
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.6
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.7
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.8
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.9
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.10
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.11
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.12
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.13
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.14
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.15
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.16
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.1
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.2
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.3
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.4
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.5
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.6
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.7
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.8
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.9
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.10
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.11
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.12
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.13
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.14
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.15
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.16
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.1
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.2
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.3
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.4
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.5
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.6
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.7
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.8
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.9
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.10
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.11
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.12
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.13
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.14
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.15
-* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.16
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.1 "Numery umów świadczeniodawców z NFZ zawierane w oddziale dolnośląskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.2 "Numery umów świadczeniodawców z NFZ zawierane w oddziale kujawsko-pomorskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.3 "Numery umów świadczeniodawców z NFZ zawierane w oddziale lubelskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.4 "Numery umów świadczeniodawców z NFZ zawierane w oddziale lubuskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.5 "Numery umów świadczeniodawców z NFZ zawierane w oddziale łódzkim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.6 "Numery umów świadczeniodawców z NFZ zawierane w oddziale małopolskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.7 "Numery umów świadczeniodawców z NFZ zawierane w oddziale mazowieckim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.8 "Numery umów świadczeniodawców z NFZ zawierane w oddziale opolskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.9 "Numery umów świadczeniodawców z NFZ zawierane w oddziale podkarpackim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.10 "Numery umów świadczeniodawców z NFZ zawierane w oddziale podlaskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.11 "Numery umów świadczeniodawców z NFZ zawierane w oddziale pomorskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.12 "Numery umów świadczeniodawców z NFZ zawierane w oddziale śląskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.13 "Numery umów świadczeniodawców z NFZ zawierane w oddziale świętokrzyskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.14 "Numery umów świadczeniodawców z NFZ zawierane w oddziale warmińsko-mazurskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.15 "Numery umów świadczeniodawców z NFZ zawierane w oddziale wielkoposlkim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.1.16 "Numery umów świadczeniodawców z NFZ zawierane w oddziale zachodniopomorskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.1 "Numery umów lekarzy z NFZ zawierane w oddziale dolnośląskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.2 "Numery umów lekarzy z NFZ zawierane w oddziale kujawsko-pomorskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.3 "Numery umów lekarzy z NFZ zawierane w oddziale lubelskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.4 "Numery umów lekarzy z NFZ zawierane w oddziale lubuskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.5 "Numery umów lekarzy z NFZ zawierane w oddziale łódzkim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.6 "Numery umów lekarzy z NFZ zawierane w oddziale małopolskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.7 "Numery umów lekarzy z NFZ zawierane w oddziale mazowieckim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.8 "Numery umów lekarzy z NFZ zawierane w oddziale opolskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.9 "Numery umów lekarzy z NFZ zawierane w oddziale podkarpackim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.10 "Numery umów lekarzy z NFZ zawierane w oddziale podlaskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.11 "Numery umów lekarzy z NFZ zawierane w oddziale pomorskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.12 "Numery umów lekarzy z NFZ zawierane w oddziale śląskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.13 "Numery umów lekarzy z NFZ zawierane w oddziale świętokrzyskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.14 "Numery umów lekarzy z NFZ zawierane w oddziale warmińsko-mazurskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.15 "Numery umów lekarzy z NFZ zawierane w oddziale wielkoposlkim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.2.16 "Numery umów lekarzy z NFZ zawierane w oddziale zachodniopomorskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.1 "Numery umów aptek z NFZ zawierane w oddziale dolnośląskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.2 "Numery umów aptek z NFZ zawierane w oddziale kujawsko-pomorskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.3 "Numery umów aptek z NFZ zawierane w oddziale lubelskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.4 "Numery umów aptek z NFZ zawierane w oddziale lubuskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.5 "Numery umów aptek z NFZ zawierane w oddziale łódzkim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.6 "Numery umów aptek z NFZ zawierane w oddziale małopolskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.7 "Numery umów aptek z NFZ zawierane w oddziale mazowieckim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.8 "Numery umów aptek z NFZ zawierane w oddziale opolskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.9 "Numery umów aptek z NFZ zawierane w oddziale podkarpackim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.10 "Numery umów aptek z NFZ zawierane w oddziale podlaskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.11 "Numery umów aptek z NFZ zawierane w oddziale pomorskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.12 "Numery umów aptek z NFZ zawierane w oddziale śląskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.13 "Numery umów aptek z NFZ zawierane w oddziale świętokrzyskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.14 "Numery umów aptek z NFZ zawierane w oddziale warmińsko-mazurskim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.15 "Numery umów aptek z NFZ zawierane w oddziale wielkoposlkim"
+* #urn:oid:2.16.840.1.113883.3.4424.8.6.3.16 "Numery umów aptek z NFZ zawierane w oddziale zachodniopomorskim"

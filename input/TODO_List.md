@@ -20,5 +20,4 @@ Zrobione:
 - Rozszerzenie w Cell - powiązanie z Unit >> Done
 
 W PLBaseMedicalFacility dodać slicing na identyfikator miejsca udzielania świadczeń (urn:oid:2.16.840.1.113883.3.4424.2.4.50.1)
-Rozszerzenie w Cell - powiązanie z Unit?
 Dodać display do VSetów pul identyfikatorów
