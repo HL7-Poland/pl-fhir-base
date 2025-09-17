@@ -19,6 +19,5 @@ Zrobione:
 - W profilu dla Cell i dla Unit - partOf only PLBaseMedicalEntityIdentity or Reference(PLBaseMedicalEntity) >> Done
 - Rozszerzenie w Cell - powiązanie z Unit >> Done
 - Dodać display do VSetów pul identyfikatorów >> Done
-
-W PLBaseMedicalFacility dodać slicing na identyfikator miejsca udzielania świadczeń (urn:oid:2.16.840.1.113883.3.4424.2.4.50.1)
+- W PLBaseMedicalFacility dodać slicing na identyfikator miejsca udzielania świadczeń (np. urn:oid:2.16.840.1.113883.3.4424.2.4.50.1) >> Done
 
