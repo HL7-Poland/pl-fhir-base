@@ -1,8 +1,8 @@
 CodeSystem: PLMedicalPracticeIdentifierPoolCS
-Id: pl-medicalPracticetIdentifierPool-CS
+Id: pl-medicalPracticeIdentifierPool-CS
 Title: "Pule identyfikatorów praktyk zawodowych (PL)"
 Description: "Pule identyfikatorów praktyk zawodowych nadawanych przez izby zawodowe"
-* ^url = "http://hl7.org.pl/fhir/CodeSystem/pl-medicalPracticetIdentifierPool-CS"
+* ^url = "http://hl7.org.pl/fhir/CodeSystem/pl-medicalPracticeIdentifierPool-CS"
 * #urn:oid:2.16.840.1.113883.3.4424.2.4.50 "Numery wpisów Okręgowej Izby Lekarskiej w Białymstoku"
 * #urn:oid:2.16.840.1.113883.3.4424.2.4.51 "Numery wpisów Beskidzkiej Okręgowej Izby Lekarskiej w Bielsku-Białej"
 * #urn:oid:2.16.840.1.113883.3.4424.2.4.52 "Numery wpisów Bydgoskiej Izby Lekarskiej w Bydgoszczy"
