@@ -3,6 +3,7 @@ Id: pl-icd9plServiceCode-CS
 Title: "Kod usługi medycznej wg ICD-9-PL"
 Description: "Kod usługi medycznej według ICD-9 PL"
 * ^url = "http://hl7.org.pl/fhir/CodeSystem/pl-icd9plServiceCode-CS"
+* ^version = "5.80"
 * #A01 "Badanie ogólne moczu (profil)"
 * #A03 "Badanie płynu mózgowo-rdzeniowego"
 * #A05 "Badanie płynu z jamy ciała (opłucnej, otrzewnej)"
