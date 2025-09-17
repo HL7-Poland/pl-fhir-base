@@ -3,75 +3,74 @@ Id: pl-medicalPracticetIdentifierPool-CS
 Title: "Pule identyfikatorów praktyk zawodowych (PL)"
 Description: "Pule identyfikatorów praktyk zawodowych nadawanych przez izby zawodowe"
 * ^url = "http://hl7.org.pl/fhir/CodeSystem/pl-medicalPracticetIdentifierPool-CS"
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.50
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.51
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.52
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.53
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.54
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.55
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.56
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.57
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.58
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.59
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.60
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.61
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.62
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.63
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.64
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.65
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.66
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.67
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.68
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.69
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.70
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.71
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.72
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.73
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.74
-* #urn:oid:2.16.840.1.113883.3.4424.2.4.75
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.1
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.10
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.11
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.12
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.13
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.14
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.15
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.16
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.17
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.18
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.19
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.2
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.20
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.21
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.22
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.23
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.24
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.25
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.26
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.27
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.28
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.29
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.3
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.30
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.31
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.32
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.33
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.34
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.35
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.36
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.37
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.38
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.39
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.4
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.40
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.41
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.42
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.43
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.44
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.45
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.5
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.6
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.7
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.8
-* #urn:oid:2.16.840.1.113883.3.4424.2.5.9
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.50 "Numery wpisów Okręgowej Izby Lekarskiej w Białymstoku"
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.51 "Numery wpisów Beskidzkiej Okręgowej Izby Lekarskiej w Bielsku-Białej"
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.52 "Numery wpisów Bydgoskiej Izby Lekarskiej w Bydgoszczy"
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.53 "Numery wpisów Okręgowej Izby Lekarskiej w Gdańsku"
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.54 "Numery wpisów Okręgowej Izby Lekarskiej w Gorzowie Wielkopolskim"
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.55 "Numery wpisów Okręgowej Izby Lekarskiej w Katowicach"
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.56 "Numery wpisów Świętokrzyskiej Izby Lekarskiej w Kielcach"
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.57 "Numery wpisów Okręgowej Izby Lekarskiej w Krakowie"
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.58 "Numery wpisów Okręgowej Izby Lekarskiej w Lublinie"
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.59 "Numery wpisów Okręgowej Izby Lekarskiej w Łodzi"
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.60 "Numery wpisów Warmińsko-Mazurskiej Izby Lekarskiej w Olsztynie"
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.61 "Numery wpisów Okręgowej Izby Lekarskiej w Opolu"
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.62 "Numery wpisów Okręgowej Izby Lekarskiej w Płocku"
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.63 "Numery wpisów Wielkopolskiej Izby Lekarskiej w Poznaniu"
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.64 "Numery wpisów Okręgowej Izby Lekarskiej w Rzeszowie"
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.65 "Numery wpisów Okręgowej Izby Lekarskiej w Szczecinie"
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.66 "Numery wpisów Okręgowej Izby Lekarskiej w Tarnowie"
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.67 "Numery wpisów Kujawsko-Pomorskiej Okręgowej Izby Lekarskiej w Toruniu"
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.68 "Numery wpisów Okręgowej Izby Lekarskiej w Warszawie"
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.69 "Numery wpisów Dolnośląskiej Izby Lekarskiej we Wrocławiu"
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.70 "Numery wpisów Okręgowej Izby Lekarskiej w Zielonej Górze"
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.72 "Numery wpisów Wojskowej Izby Lekarskiej"
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.74 "Numery wpisów Okręgowej Izby Lekarskiej w Koszalinie"
+* #urn:oid:2.16.840.1.113883.3.4424.2.4.75 "Numery wpisów Okręgowej Izby Lekarskiej w Częstochowie"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.1 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Białej Podlaskiej"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.2 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Białymstoku"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.3 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Bielsku-Białej"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.4 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Bygdoszczy"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.5 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Chełmie"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.6 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Ciechanowie"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.7 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Częstochowie"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.8 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Elblągu"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.9 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Gdańsku"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.10 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Gorzowie Wielkopolskim"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.11 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Jeleniej Górze"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.12 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Kaliszu"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.13 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Katowicach"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.14 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Kielcach"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.15 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Koninie"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.16 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Koszalinie"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.17 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Krakowie"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.18 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Krośnie"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.19 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Lesznie"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.20 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Lublinie"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.21 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Łomży"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.22 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Łodzi"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.23 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Olsztynie"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.24 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Opolu"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.25 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Ostrołęce"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.26 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Pile"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.27 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Płocku"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.28 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Poznaniu"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.29 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Przeworsku"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.30 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Radomiu"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.31 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Rzeszowie"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.32 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Siedlcach"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.33 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Sieradzu"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.34 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Słupsku"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.35 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Suwałkach"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.36 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Szczecinie"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.37 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Nowym Sączu"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.38 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Tarnowie"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.39 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Toruniu"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.40 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Wałbrzychu"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.41 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Warszawie"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.42 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych we Włocławku"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.43 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych we Wrocławiu"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.44 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Zamościu"
+* #urn:oid:2.16.840.1.113883.3.4424.2.5.45 "Numery wpisów Okręgowej Izby Pielęgniarek i Położnych w Zielonej Górze"
+
 
