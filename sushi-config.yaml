@@ -9,7 +9,7 @@ name: hl7.fhir.pl.base.r5
 title: Polska specyfikacja bazowa HL7 FHIR (HL7 FHIR PL Base)
 description: Polska bazowa specyfikacja krajowa standardu HL7 FHIR
 status: active # draft | active | retired | unknown
-version: 0.1.3
+version: 0.1.4
 fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: ci-build

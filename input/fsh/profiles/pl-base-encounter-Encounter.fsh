@@ -1,10 +1,9 @@
-Profile: PLBaseActualEncounter
+Profile: PLBaseEncounter
 Parent: Encounter
-Id: pl-base-actualEncounter
+Id: pl-base-Encounter
 Title: "Encounter: Wizyta/pobyt"
 Description: "Bazowy profil wizyty lub pobytu"
 * ^version = "0.1.0"
-* status from PLActualEncounterStatusVS
 * type 0..1 MS
 * type from PLMedicalEntityCellTypeVS
 * subject 1..1 MS
@@ -17,7 +16,7 @@ Description: "Bazowy profil wizyty lub pobytu"
 * basedOn contains
     serviceOrder 0..* MS
 * basedOn[serviceOrder] only Reference(PLBaseServiceOrder)
-* partOf only Reference(PLBaseActualEncounter)
+* partOf only Reference(PLBaseEncounter)
 * serviceProvider only Reference(PLBaseMedicalEntity or PLBaseMedicalEntityUnit or PLBaseMedicalEntityCell)
 * actualPeriod 1..1 MS
 * diagnosis 1..* MS

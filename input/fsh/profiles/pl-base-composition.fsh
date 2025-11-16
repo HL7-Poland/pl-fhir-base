@@ -34,7 +34,7 @@ Description: "Dane nagłówkowe dokumentu medycznego w standardzie HL7 FHIR"
 * subject 1..1 MS
 * subject only Reference(PLBasePatient)
 * encounter 1..1 MS
-* encounter only Reference(PLBaseActualEncounter)
+* encounter only Reference(PLBaseEncounter)
 * date 1..1 MS
 * author 1..1 MS
 * author only Reference(PLBaseDocumentAuthor)
