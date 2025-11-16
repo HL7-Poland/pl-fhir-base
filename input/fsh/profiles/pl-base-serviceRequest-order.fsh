@@ -28,8 +28,10 @@ Description: "Zlecenie usługi medycznej"
 * code.concept.coding[icd9plCode].code 1..1 MS
 * code.concept.coding[icd9plCode].display 1..1 MS
 * subject only Reference(PLBasePatient)
-* encounter only Reference(PLBaseActualEncounter)
+* encounter only Reference(PLBaseEncounter)
 * authoredOn 1..1 MS
 * requester 1..1 MS
 * requester only Reference(PLBaseServiceRequester)
+* location only CodeableReference(PLBaseMedicalFacility)
+* location from PLMedicalEntityCellTypeVS
 * insurance only Reference(PLBaseCoverage)
