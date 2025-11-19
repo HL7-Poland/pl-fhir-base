@@ -1,8 +1,8 @@
 Profile: PLBaseServicePerformer
 Parent: PractitionerRole
 Id: pl-base-practitionerRole-servicePerformer
-Title: "PractitionerRole: Zlecający usługę"
-Description: "Dane zlecającego usługę medyczną"
+Title: "PractitionerRole: Wykonawca usługi"
+Description: "Dane wykonawcy usługi medycznej"
 * ^version = "0.1.0"
 * extension contains 
   PractitionerRoleReimbursementContractIdentifier named reimbursementContractIdentifier 0..1 MS
