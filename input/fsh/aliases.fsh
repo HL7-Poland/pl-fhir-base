@@ -26,7 +26,7 @@ Alias: $ids-simc = http://hl7.org.pl/fhir/NamingSystem/teryt-simc
 
 // UV Terminology
 Alias: $sct = http://snomed.info/sct
-Alias: $loinc = http://loinc.com
+Alias: $loinc = http://loinc.org
 // Alias: $radiology-playbook = http://fhir.loinc.org/CodeSystem/loinc-rsna-radiology-playbook
 Alias: $bcp-47 = urn:ietf:bcp:47
 Alias: $ucum = http://unitsofmeasure.org
