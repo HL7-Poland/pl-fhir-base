@@ -15,6 +15,8 @@ Description: "Placówka medyczna/Miejsce udzielania świadczeń należące do ok
 * identifier[medicalPractice].system 1..1 MS
 * identifier[medicalPractice].system from PLMedicalPracticeLocationIdentifierPoolVS
 * identifier[medicalPractice].value 1..1 MS
+* mode 1..1 MS
+* mode = #instance
 * contact 1..*
 * contact.telecom 1..*
 * address 1..1 MS
