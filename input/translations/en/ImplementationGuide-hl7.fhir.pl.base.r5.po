@@ -1,0 +1,645 @@
+
+# ImplementationGuide.name
+#: ImplementationGuide.name
+msgid "hl7fhirplbaser5"
+msgstr ""
+
+# ImplementationGuide.title
+#: ImplementationGuide.title
+msgid "Polska specyfikacja bazowa HL7 FHIR (HL7 FHIR PL Base)"
+msgstr "Polish HL7 FHIR Base Specification (HL7 FHIR PL Base)"
+
+# ImplementationGuide.publisher
+#: ImplementationGuide.publisher
+msgid "HL7 Poland"
+msgstr "HL7 Poland"
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "HL7 Poland"
+msgstr "HL7 Poland"
+
+# ImplementationGuide.description
+#: ImplementationGuide.description
+msgid "Polska bazowa specyfikacja krajowa standardu HL7 FHIR"
+msgstr "Polish national base specification of the HL7 FHIR standard"
+
+# Coding.display
+#: Coding.display
+msgid "Poland"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Activity Definition: Responsible Organization"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Podmiot odpowiedzialny za definicję usług medycznej"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "ActivityDefinition: Usługa katalogowa"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Definicja usługi katalogowej podmiotu medycznego"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Address: Adres"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Struktura adresu w Unii Europejskiej z uwzględnieniem polskich rozszerzeń"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Address: ISO Alpha-3 Country Code"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Trzyliterowy kod kraju wg ISO 3166"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Address: ISO Numeric Country Code"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Numeryczny kod kraju wg ISO 3166"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Address: SIMC Code (PL)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Kod SIMC"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Address: TERC Code (PL)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Kod TERC"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Address: TERYT Code (PL)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Kod TERYT"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Bundle: Dokument medyczny"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Dokument medyczny w standardzie HL7 FHIR"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Composition: Based On Order"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Zlecenie, w ramach ralizacji którego powstaje dokument"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Composition: Information Recipient"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Odbiorca informacji zawartej w dokumencie medycznym"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Composition: Payor Identifier"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Identyfikator ubezpieczyciela publicznego"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Composition: Version"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Numer wersji dokumentu"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Condition: Rozpoznanie"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Rozpoznanie"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Contract: Umowa"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Dane umowy"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Coverage: Produkt medyczny"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Dane produktu medycznego/modelu rozliczeń/ubezpieczenia"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "DocumentReference: Identyfikator i wersja dokumentu medycznego"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Dane identyfikacyjne dokumentu medycznego w postaci unikalnego identyfikatora i wersji"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "DocumentReference: Metadane dokumentu medycznego HL7 CDA"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Metadane dokumentu medycznego zgodnego z PIK HL7 CDA"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Encounter: Wizyta/pobyt"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Bazowy profil wizyty lub pobytu"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "HealthcareService: Katalog usług"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Katalog usług medycznych dostępnych w placówce medycznej"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Jednostki czasu (TimeUnit)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Kody jednostek czasu oparte na słowniku UCUM"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Język dokumentu medycznego (Language)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Dopuszczalny język dokumentu medycznego wystawianego w Polsce"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Kod rozpoznania (PL)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Kod rozpoznania wg słownika ICD-10"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Kod usługi medycznej wg ICD-9-PL"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Kod usługi medycznej według ICD-9 PL"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Kody jednostek wieku (AgeUnit)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Kody jednostek wieku oparte na słowniku UCUM"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Location: Placówka medyczna"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Placówka medyczna/Miejsce udzielania świadczeń należące do określonego podmiotu medycznego"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Location: Typ placówki medycznej"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Typ placówki medycznej"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Nagłówek dokumentu medycznego"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Dane nagłówkowe dokumentu medycznego w standardzie HL7 FHIR"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Organization: Apteka"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Apteka"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Organization: Jednostka organizacyjna"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Jednostka organizacyjna podmiotu leczniczego (wg RPWDL)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Organization: Komórka organizacyjna"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Komórka organizacyjna podmiotu leczniczego (wg RPWDL)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Organization: Medical Entity Company Identifier"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Identyfikator przedsiębiorstwa podmiotu leczniczego (REGON)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Organization: Medical Entity Unit Reference"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Referencja do jednostki podmiotu leczniczego"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Organization: Medyczna praktyka zawodowa"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Medyczna prakytka zawodowa (lekarska lub pielęgniarki/położnej)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Organization: Podmiot medyczny"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Dane podmiotu medycznego (świadczeniodawcy)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Organization: Płatnik"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Dane płatnika"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Patient: Identifier of mother (PL)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Identyfikator matki (np. PESEL) jako identyfikator noworodka"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Patient: Pacjent"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Dane pacjenta"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Poziom poufności (ConfidentialityCode)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Kod poziomu poufności danych (dokumentu lub innego zasobu)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Practitioner: Pracownik medyczny"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Dane pracownika medycznego"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "PractitionerRole: Autor dokumentu"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Dane autora dokumentu medycznego"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "PractitionerRole: Odbiorca informacji"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Dane odbiorcy informacji przekazywanej w dokumencie medycznym"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "PractitionerRole: Reimbursement Contract Identifier"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Identyfikator umowy związanej z refundacją świadczeń medycznych"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "PractitionerRole: Wykonawca usługi"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Dane wykonawcy usługi medycznej"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "PractitionerRole: Zlecający usługę"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Dane zlecającego usługę medyczną"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Pule identyfikatorów miejsc udzielania świadczeń w ramach praktyk zawodowych (PL)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Pule identyfikatorów miejsc udzielania świadczeń w ramach praktyk zawodowych nadawane przez izby zawodowe"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Pule identyfikatorów praktyk zawodowych (PL)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Pule identyfikatorów praktyk zawodowych nadawanych przez izby zawodowe"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Pule numerów umów związanych z refundacją świadczeń medycznych (PL)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Pule numerów umów związanych z refundacją świadczeń medycznych"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Płeć pacjenta (AdministrativeGender)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Określenie płci pacjenta dla celów administracyjnych"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Referencja do usługi katalogowej (PL)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Referencja do usługi katalogowej"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Service Request: Zlecenie usługi medycznej"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Zlecenie usługi medycznej"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Specjalność komórki organizacyjnej (PL)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Specjalność komórki organizacyjnej podmiotu medycznego (cz. VIII SKR)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Specjalność lekarska (PL)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Specjalność lekarska"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Status planowanej wizyty lub pobytu (Encounter)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Status planowanej wizyty lub pobytu"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Status wizyty lub pobytu (Encounter)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Status wizyty lub pobytu, które już się odbyły"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Tryb wypisu ze szpitala (PL)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Kod trybu wypisu ze szpitala"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Typ dokumentu medycznego wg P1 (PL)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Typ dokumentu medycznego według klasyfikacji typów dokumentów na platfomie P1"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Zawód medyczny (PL)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Zawód medyczny"
+msgstr ""
+
+# ImplementationGuide.definition.page.source[x]
+#: ImplementationGuide.definition.page.source[x]
+msgid "toc.html"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Table of Contents"
+msgstr ""
+
+# ImplementationGuide.definition.page.source[x]
+#: ImplementationGuide.definition.page.source[x]
+msgid "index.html"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Wprowadzenie"
+msgstr "Introduction"
+
+# ImplementationGuide.definition.page.source[x]
+#: ImplementationGuide.definition.page.source[x]
+msgid "logical.html"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Model logiczny"
+msgstr "Logical Model"
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Informacje o tłumaczeniu"
+msgstr "Translation Information"

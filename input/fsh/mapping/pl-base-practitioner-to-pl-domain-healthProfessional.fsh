@@ -1,0 +1,27 @@
+Mapping: PLBasePractitionerToPLDomainHealthProfessional
+Source: PLBasePractitioner
+Target: "http://hl7.org.pl/fhir/ig/pl-base/StructureDefinition/pl-domain-healthProfessional"
+Id: pl-domain-healthProfessional
+Title: "PL Domain Model: Health Professional"
+Description: "Mapping of the PLBasePractitioner profile to the PLDomainHealthProfessional logical model."
+
+* -> "PLDomainHealthProfessional"
+* identifier -> "PLDomainHealthProfessional.identifier"
+* identifier[pharmacistId] -> "PLDomainHealthProfessional.professionalLicenceNumber" "NPWZ number from the register of pharmacists"
+* identifier[physicianId] -> "PLDomainHealthProfessional.professionalLicenceNumber" "NPWZ number from the register of physicians, dentists and feldshers"
+* identifier[nurseId] -> "PLDomainHealthProfessional.professionalLicenceNumber" "NPWZ number from the register of nurses and midwives"
+* identifier[labDiagnosticianId] -> "PLDomainHealthProfessional.professionalLicenceNumber" "NPWZ number from the register of laboratory diagnosticians"
+* name -> "PLDomainHealthProfessional.name"
+* name.family -> "PLDomainHumanName.family"
+* name.given -> "PLDomainHumanName.given"
+* telecom -> "PLDomainHealthProfessional.telecom"
+* telecom.system -> "PLDomainTelecom.type" "Practitioner.telecom.system (code) is represented as a Coding with system http://hl7.org/fhir/contact-point-system"
+* address -> "PLDomainHealthProfessional.address"
+* address.line -> "PLDomainAddress.streetName, PLDomainAddress.houseNumber, PLDomainAddress.unitId, PLDomainAddress.postBox" "Mapped from the ISO 21090 ADXP extensions on Address.line (streetName, houseNumber, unitID, postBox)"
+* address.city -> "PLDomainAddress.city"
+* address.postalCode -> "PLDomainAddress.postalCode"
+* address.country -> "PLDomainAddress.country"
+* address.text -> "PLDomainAddress.text"
+* qualification -> "PLDomainHealthProfessional.qualificationCode" "Each qualification (medical profession or medical specialty) provides one qualification code"
+* qualification.code -> "PLDomainHealthProfessional.qualificationCode" "Mapped from code.coding: medical profession code system or medical specialties code system"
+* qualification.identifier -> "PLDomainHealthProfessional.professionalLicenceNumber" "NPWZ number confirming the qualification to practise the profession"

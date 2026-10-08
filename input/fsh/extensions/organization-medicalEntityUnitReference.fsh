@@ -7,5 +7,5 @@ Context: Organization
 * valueReference.reference 0..1 MS
 * valueReference.identifier 0..1 MS
 * valueReference.identifier.system 1..1 MS
-* valueReference.identifier.system = $ids-medicalEntityUnit
+* valueReference.identifier.system = $medicalEntityUnitIds
 * valueReference.identifier.value 1..1 MS

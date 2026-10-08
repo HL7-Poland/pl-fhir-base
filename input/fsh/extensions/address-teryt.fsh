@@ -15,7 +15,7 @@ Description: "Kod TERC"
 Context: Teryt
 * ^version = "0.1.0"
 * value[x] only Coding
-* valueCoding.system = $ids-terc
+* valueCoding.system = $tercIds
 
 Extension: SIMC
 Id: teryt-simc
@@ -24,4 +24,4 @@ Description: "Kod SIMC"
 Context: Teryt
 * ^version = "0.1.0"
 * value[x] only Coding
-* valueCoding.system = $ids-simc
+* valueCoding.system = $simcIds

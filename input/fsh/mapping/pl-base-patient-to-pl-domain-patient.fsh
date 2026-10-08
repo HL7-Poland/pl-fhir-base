@@ -1,0 +1,28 @@
+Mapping: PLBasePatientToPLDomainPatient
+Source: PLBasePatient
+Target: "http://hl7.org.pl/fhir/ig/pl-base/StructureDefinition/pl-domain-patient"
+Id: pl-domain-patient
+Title: "PL Domain Model: Patient"
+Description: "Mapping of the PLBasePatient profile to the PLDomainPatient logical model."
+
+* -> "PLDomainPatient"
+* identifier[nationalIdentifier] -> "PLDomainPatient.nationalIdentifier"
+* identifier[identityCardNumber] -> "PLDomainPatient.identityCardNumber"
+* identifier[passportNumber] -> "PLDomainPatient.passportNumber"
+* extension[identifierOfMother] -> "PLDomainPatient.motherIdentifier" "Mapped from the extension's valueIdentifier"
+* gender -> "PLDomainPatient.administrativeGender" "Patient.gender (code) is represented as a Coding with system http://hl7.org/fhir/administrative-gender"
+* multipleBirth[x] -> "PLDomainPatient.multipleBirthNumber"
+* name -> "PLDomainPatient.name"
+* name[known] -> "PLDomainPatient.name" "Patient with established identity"
+* name[known].family -> "PLDomainHumanName.family"
+* name[known].given -> "PLDomainHumanName.given"
+* name[unknown] -> "PLDomainPatient.name" "Unidentified (NN) patient: no family or given name, text \"NN\" with the data-absent-reason extension"
+* telecom -> "PLDomainPatient.telecom"
+* telecom.system -> "PLDomainTelecom.type" "Patient.telecom.system (code) is represented as a Coding with system http://hl7.org/fhir/contact-point-system"
+* address -> "PLDomainPatient.address"
+* address.line -> "PLDomainAddress.streetName, PLDomainAddress.houseNumber, PLDomainAddress.unitId, PLDomainAddress.postBox" "Mapped from the ISO 21090 ADXP extensions on Address.line (streetName, houseNumber, unitID, postBox)"
+* address.city -> "PLDomainAddress.city"
+* address.postalCode -> "PLDomainAddress.postalCode"
+* address.country -> "PLDomainAddress.country"
+* address.extension -> "PLDomainAddress.administrativeUnitIdentifier, PLDomainAddress.localityIdentifier" "Mapped from the TERYT extension (TERC and SIMC codes)"
+* address.text -> "PLDomainAddress.text"

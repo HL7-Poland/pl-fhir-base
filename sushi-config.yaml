@@ -9,12 +9,15 @@ name: hl7.fhir.pl.base.r5
 title: Polska specyfikacja bazowa HL7 FHIR (HL7 FHIR PL Base)
 description: Polska bazowa specyfikacja krajowa standardu HL7 FHIR
 status: active # draft | active | retired | unknown
-version: 0.1.5
+version: 0.2.0
 fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: ci-build
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: urn:iso:std:iso:3166#PL "Poland" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+# Primary (authoring) language of the IG. Translations to other languages are
+# configured with the i18n-* parameters below.
+language: pl
 publisher:
   name: HL7 Poland
   url: http://hl7.org.pl
@@ -24,8 +27,9 @@ publisher:
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
 #
-#dependencies:
-#
+dependencies:
+  xtehr.eu.ehds.models: 1.0.0
+  hl7.fhir.eu.base-r5: 2.0.1
 #
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
@@ -42,6 +46,10 @@ publisher:
 pages:
   index.md:
     title: Wprowadzenie
+  logical.md:
+    title: Model logiczny
+  translationinfo.md:
+    title: Informacje o tłumaczeniu
 #   implementation.xml:
 #   examples.xml:
 #     title: Examples Overview
@@ -58,7 +66,19 @@ pages:
 # For parameters defined by the FHIR Tools IG see:
 # http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
 #
-# parameters:
+# Multi-language publication (requires a template based on fhir2.base.template):
+# - i18n-default-lang: the language the IG is authored in
+# - i18n-lang: additional languages the IG is published in
+# - translation-sources: folders holding translations; the last path segment
+#   must be the language code. Inside, pages mirror the input/ folder layout
+#   (e.g. input/translations/en/pagecontent/index.md) and resource
+#   translations are [ResourceType]-[id].po files. The IG Publisher writes
+#   skeleton .po files for all translatable content to /translations/en/po.
+#
+parameters:
+  i18n-default-lang: pl
+  i18n-lang: en
+  translation-sources: input/translations/en
 #   excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]
 #
@@ -70,9 +90,13 @@ pages:
 # │ input/includes. To use a provided input/includes/menu.xml file, delete the "menu"              │
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-menu:
-  Strona główna: index.html
-  Definicje: artifacts.html
+# The menu is provided in input/includes/menu.xml (Polish) and
+# input/translations/en/includes/menu.xml (English), because SUSHI-generated
+# menus cannot be translated.
+#
+# menu:
+#   Strona główna: index.html
+#   Definicje: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
