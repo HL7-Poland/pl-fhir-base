@@ -2,8 +2,9 @@
   <li>
     <a href="index.html">Home</a>
   </li>
+  <!-- FIX (IG Publisher QA): dropdown toggles may no longer use href="#"; the IG Publisher requires href="menu.html" (it does not navigate). -->
   <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Logical model<b class="caret"> </b></a>
+    <a data-toggle="dropdown" href="menu.html" class="dropdown-toggle">Logical model<b class="caret"> </b></a>
     <ul class="dropdown-menu">
       <li>
         <a href="logical.html#patient">Patient data</a>

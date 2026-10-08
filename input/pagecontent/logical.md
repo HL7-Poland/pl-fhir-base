@@ -48,6 +48,8 @@ Dwie klasy pomocnicze opisują dane teleadresowe. **PLDomainAddress** wymaga naz
 
 # Dane miejsca udzielania świadczeń (MUŚ) {#service-location}
 
+![Model danych MUŚ](diagrams/pl-domain-location.png)
+
 Podstawową klasą modelu jest **PLDomainLocation**, która znaczeniowo odpowiada zasobowi Location w standardzie FHIR, czyli opisuje fizyczne miejsce. Ma obowiązkową nazwę (name, string 1..1) oraz dowolną liczbę identyfikatorów (identifier, Identifier 0..\*) i typów (type, Coding 0..\*). Musi mieć dokładnie jeden adres **PLDomainAddress** (address, 1..1), może mieć dowolną liczbę kontaktów **PLDomainTelecom** (telecom, 0..\*) i może wskazywać najwyżej jedną organizację zarządzającą **PLDomainOrganisation** (managingOrganisation, 0..1).
 
 **PLDomainServiceLocation** dziedziczy po **PLDomainLocation** i reprezentuje miejsce udzielania świadczeń medycznych w rozumieniu polskiego ustawodawstwa. Wymaga co najmniej jednego identyfikatora (identifier, 1..\*) oraz dokładnie jednego kodu specjalności (specialtyCode, Coding; na diagramie zapisano „[1.1]", co należy czytać jako 1..1). Jej organizacją zarządzającą (managingOrganisation, 0..1) jest albo **PLDomainMedicalPractice**, albo **PLDomainMedicalEntityCell**. Obie asocjacje łączy notatka „OR", więc dla danego miejsca stosuje się tylko jedną z nich.
