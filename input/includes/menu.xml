@@ -2,6 +2,23 @@
   <li>
     <a href="index.html">Strona główna</a>
   </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Model logiczny<b class="caret"> </b></a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="logical.html#patient">Dane pacjenta</a>
+      </li>
+      <li>
+        <a href="logical.html#health-professional">Dane pracownika medycznego</a>
+      </li>
+      <li>
+        <a href="logical.html#organisation">Dane podmiotu wykonującego działalność leczniczą oraz praktyki zawodowej</a>
+      </li>
+      <li>
+        <a href="logical.html#service-location">Dane miejsca udzielania świadczeń (MUŚ)</a>
+      </li>
+    </ul>
+  </li>
   <li>
     <a href="artifacts.html">Definicje</a>
   </li>

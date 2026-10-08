@@ -1,4 +1,4 @@
-# Patient data
+# Patient data {#patient}
 
 ![Patient data model](diagrams/pl-domain-patient.png)
 
@@ -12,7 +12,7 @@ The model with the PLDomain prefix describes the identification and contact data
 
 **PLDomainAddress** describes an address in a structured form. Four attributes are mandatory: `streetName` (street name), `houseNumber` (building number), `city` (city or town) and `postalCode` (postal code). Optional are `unitId`, i.e. the flat/unit number, and `postBox`, i.e. the PO box. The `country` attribute indicates the country, and the «binding» stereotype means that its value comes from a specific set of codes. The `administrativeUnitIdentifier` and `localityIdentifier` attributes are identifiers from the TERYT register: the first indicates the territorial division unit (TERC code), the second the locality (SIMC code). They serve the verification of address data against reference databases, which is required by the Act on the Healthcare Information System. The `text` attribute allows the whole address to be recorded as a single text string when it cannot be split into fields.
 
-# Health professional data
+# Health professional data {#health-professional}
 
 ![Health professional data](diagrams/pl-domain-healthProfessional.png)
 
@@ -28,9 +28,9 @@ The last class is **PLDomainServiceLocation**, describing a place of providing h
 
 The diagram itself shows a few editorial flaws: typos in the names "HelathProfessionalRole" and "qualiicationCode", the cardinality of specialtyCode written as "1.1" instead of "1..1", and a leftover empty "Text" label next to one of the arrows.
 
-# Data of entities performing medical activities and professional practices
+# Data of entities performing medical activities and professional practices {#organisation}
 
-![Organisation data model](diagrams/pl-domain-organization)
+![Organisation data model](diagrams/pl-domain-organisation.png)
 
 **PLDomainOrganisation** is the central element of the model and serves as the general description of an organisation in the Polish domain. It has three attributes of its own: identifier, i.e. any number of identifiers, a mandatory name with the name of the organisation, and type, i.e. any number of codes specifying its kind. The class is linked to any number of addresses and contact details, and the optional partOf relationship makes it possible to indicate a parent organisation. Five specific classes inherit from it and narrow these general rules.
 
@@ -46,7 +46,7 @@ The diagram itself shows a few editorial flaws: typos in the names "HelathProfes
 
 Two auxiliary classes describe address and contact data. **PLDomainAddress** requires the street name (streetName), building number (houseNumber), city or town (city) and postal code (postalCode). Optional are the flat/unit number (unitId), PO box (postBox), country code bound to a code system (country), identifiers of the territorial division unit and of the locality (administrativeUnitIdentifier, localityIdentifier) and the address as a single string (text). **PLDomainTelecom** adds a mandatory type, i.e. a code of the contact channel type, for example telephone or e-mail.
 
-# Data of the place of providing healthcare services (MUŚ)
+# Data of the place of providing healthcare services (MUŚ) {#service-location}
 
 The basic class of the model is **PLDomainLocation**, which in meaning corresponds to the Location resource in the FHIR standard, i.e. it describes a physical place. It has a mandatory name (name, string 1..1) and any number of identifiers (identifier, Identifier 0..\*) and types (type, Coding 0..\*). It must have exactly one address **PLDomainAddress** (address, 1..1), may have any number of contacts **PLDomainTelecom** (telecom, 0..\*) and may indicate at most one managing organisation **PLDomainOrganisation** (managingOrganisation, 0..1).
 

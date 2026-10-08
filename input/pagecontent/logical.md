@@ -1,4 +1,4 @@
-# Dane pacjenta
+# Dane pacjenta {#patient}
 
 ![Model danych pacjenta](diagrams/pl-domain-patient.png)
 
@@ -12,7 +12,7 @@ Model z prefiksem PLDomain opisuje dane identyfikacyjne i kontaktowe pacjenta w 
 
 **PLDomainAddress** opisuje adres w postaci ustrukturyzowanej. Obowiązkowe są cztery atrybuty: `streetName` (nazwa ulicy), `houseNumber` (numer budynku), `city` (miejscowość) i `postalCode` (kod pocztowy). Opcjonalne są `unitId`, czyli numer lokalu, oraz `postBox`, czyli skrytka pocztowa. Atrybut `country` wskazuje kraj, a stereotyp «binding» oznacza, że jego wartość pochodzi z określonego zbioru kodów. Atrybuty `administrativeUnitIdentifier` i `localityIdentifier` to identyfikatory z rejestru TERYT: pierwszy wskazuje jednostkę podziału terytorialnego (kod TERC), drugi miejscowość (kod SIMC). Służą one weryfikacji danych adresowych w referencyjnych bazach danych, której wymaga ustawa o systemie informacji w ochronie zdrowia. Atrybut `text` pozwala zapisać cały adres jednym ciągiem tekstu, gdy nie da się go rozbić na pola.
 
-# Dane pracownika medycznego
+# Dane pracownika medycznego {#health-professional}
 
 ![Dane pracownika medycznego](diagrams/pl-domain-healthProfessional.png)
 
@@ -28,9 +28,9 @@ Ostatnią klasą jest **PLDomainServiceLocation**, opisująca miejsce udzielania
 
 Na samym diagramie widać kilka usterek redakcyjnych: literówki w nazwach „HelathProfessionalRole” i „qualiicationCode”, krotność specialtyCode zapisaną jako „1.1” zamiast „1..1” oraz pozostawioną pustą etykietę „Text” przy jednej ze strzałek.
 
-# Dane podmiotu wykonującego działalność leczniczą oraz praktyki zawodowej
+# Dane podmiotu wykonującego działalność leczniczą oraz praktyki zawodowej {#organisation}
 
-![Model danych ogranizacji](diagrams/pl-domain-organization)
+![Model danych ogranizacji](diagrams/pl-domain-organisation.png)
 
 **PLDomainOrganisation** jest centralnym elementem modelu i pełni rolę ogólnego opisu organizacji w polskiej domenie. Ma trzy atrybuty własne: identifier, czyli dowolną liczbę identyfikatorów, obowiązkowy name z nazwą organizacji oraz type, czyli dowolną liczbę kodów określających jej rodzaj. Klasa wiąże się z dowolną liczbą adresów i danych kontaktowych, a opcjonalna relacja partOf pozwala wskazać organizację nadrzędną. Dziedziczy po niej pięć klas szczegółowych, które zawężają te ogólne reguły.
 
@@ -46,7 +46,7 @@ Na samym diagramie widać kilka usterek redakcyjnych: literówki w nazwach „He
 
 Dwie klasy pomocnicze opisują dane teleadresowe. **PLDomainAddress** wymaga nazwy ulicy (streetName), numeru domu (houseNumber), miejscowości (city) i kodu pocztowego (postalCode). Opcjonalne są numer lokalu (unitId), skrytka pocztowa (postBox), kod kraju z wiązaniem do słownika (country), identyfikatory jednostki podziału terytorialnego i miejscowości (administrativeUnitIdentifier, localityIdentifier) oraz adres w postaci jednego napisu (text). **PLDomainTelecom** dodaje obowiązkowy type, czyli kod rodzaju kanału kontaktu, na przykład telefon lub poczta elektroniczna.
 
-# Dena miejsca udzielania świadczeń (MUŚ)
+# Dane miejsca udzielania świadczeń (MUŚ) {#service-location}
 
 Podstawową klasą modelu jest **PLDomainLocation**, która znaczeniowo odpowiada zasobowi Location w standardzie FHIR, czyli opisuje fizyczne miejsce. Ma obowiązkową nazwę (name, string 1..1) oraz dowolną liczbę identyfikatorów (identifier, Identifier 0..\*) i typów (type, Coding 0..\*). Musi mieć dokładnie jeden adres **PLDomainAddress** (address, 1..1), może mieć dowolną liczbę kontaktów **PLDomainTelecom** (telecom, 0..\*) i może wskazywać najwyżej jedną organizację zarządzającą **PLDomainOrganisation** (managingOrganisation, 0..1).
 

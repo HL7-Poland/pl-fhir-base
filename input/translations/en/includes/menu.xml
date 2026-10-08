@@ -2,6 +2,23 @@
   <li>
     <a href="index.html">Home</a>
   </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Logical model<b class="caret"> </b></a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="logical.html#patient">Patient data</a>
+      </li>
+      <li>
+        <a href="logical.html#health-professional">Health professional data</a>
+      </li>
+      <li>
+        <a href="logical.html#organisation">Data of entities performing medical activities and professional practices</a>
+      </li>
+      <li>
+        <a href="logical.html#service-location">Data of the place of providing healthcare services (MUŚ)</a>
+      </li>
+    </ul>
+  </li>
   <li>
     <a href="artifacts.html">Artifacts</a>
   </li>
