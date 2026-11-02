@@ -2,6 +2,16 @@ CodeSystem: PLMedicalPracticeIdentifierPoolCS
 Id: pl-medicalPracticeIdentifierPool-CS
 Title: "Pule identyfikatorów praktyk zawodowych (PL)"
 Description: "Pule identyfikatorów praktyk zawodowych nadawanych przez izby zawodowe"
+
+// FIX (IG Publisher QA): terminology published by HL7 SHALL conform to the ShareableCodeSystem profile, in which
+// CodeSystem.experimental is mandatory; it was missing ("element CodeSystem.experimental is mandatory, but it is not present").
+* ^experimental = false
+// FIX (IG Publisher QA): ShareableCodeSystem requires CodeSystem.caseSensitive; it was missing
+// ("element CodeSystem.caseSensitive is mandatory, but it is not present"). The codes are case sensitive.
+* ^caseSensitive = true
+// QA ERROR (not fixed, needs a decision): this CodeSystem URL is outside the IG canonical http://hl7.org.pl/fhir/ig/pl-base
+// ("URL Mismatch ... does not match the URL"); the IG Publisher expects http://hl7.org.pl/fhir/ig/pl-base/CodeSystem/pl-medicalPracticeIdentifierPool-CS.
+// The URL is the global identifier of the code system, so changing it breaks existing data and references using it.
 * ^url = "http://hl7.org.pl/fhir/CodeSystem/pl-medicalPracticeIdentifierPool-CS"
 * #urn:oid:2.16.840.1.113883.3.4424.2.4.50 "Numery wpisów Okręgowej Izby Lekarskiej w Białymstoku"
 * #urn:oid:2.16.840.1.113883.3.4424.2.4.51 "Numery wpisów Beskidzkiej Okręgowej Izby Lekarskiej w Bielsku-Białej"

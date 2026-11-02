@@ -2,6 +2,10 @@ ValueSet: PLTimeUnitVS
 Id: pl-timeUnit-VS
 Title: "Jednostki czasu (TimeUnit)"
 Description: "Kody jednostek czasu oparte na słowniku UCUM"
+
+// FIX (IG Publisher QA): terminology published by HL7 SHALL conform to the ShareableValueSet profile, in which
+// ValueSet.experimental is mandatory; it was missing ("element ValueSet.experimental is mandatory, but it is not present").
+* ^experimental = false
 * $ucum#mo "month"
   * ^designation[0].language = #pl-PL
   * ^designation[=].value = "miesiąc(miesięcy)"

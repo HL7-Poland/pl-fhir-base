@@ -2,6 +2,16 @@ CodeSystem: PLReimbursementContractIdentifierPoolCS
 Id: pl-reimbursementContractIdentifierPool-CS
 Title: "Pule numerów umów związanych z refundacją świadczeń medycznych (PL)"
 Description: "Pule numerów umów związanych z refundacją świadczeń medycznych"
+
+// FIX (IG Publisher QA): terminology published by HL7 SHALL conform to the ShareableCodeSystem profile, in which
+// CodeSystem.experimental is mandatory; it was missing ("element CodeSystem.experimental is mandatory, but it is not present").
+* ^experimental = false
+// FIX (IG Publisher QA): ShareableCodeSystem requires CodeSystem.caseSensitive; it was missing
+// ("element CodeSystem.caseSensitive is mandatory, but it is not present"). The codes are case sensitive.
+* ^caseSensitive = true
+// QA ERROR (not fixed, needs a decision): this CodeSystem URL is outside the IG canonical http://hl7.org.pl/fhir/ig/pl-base
+// ("URL Mismatch ... does not match the URL"); the IG Publisher expects http://hl7.org.pl/fhir/ig/pl-base/CodeSystem/pl-reimbursementContractIdentifierPool-CS.
+// The URL is the global identifier of the code system, so changing it breaks existing data and references using it.
 * ^url = "http://hl7.org.pl/fhir/CodeSystem/pl-reimbursementContractIdentifierPool-CS"
 * #urn:oid:2.16.840.1.113883.3.4424.8.6.1.1 "Numery umów świadczeniodawców z NFZ zawierane w oddziale dolnośląskim"
 * #urn:oid:2.16.840.1.113883.3.4424.8.6.1.2 "Numery umów świadczeniodawców z NFZ zawierane w oddziale kujawsko-pomorskim"
